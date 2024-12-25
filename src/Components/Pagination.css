@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot");
+  src: url("https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.svg#Circular Std Book")format("svg");
+}
+
+.pagination {
+  max-width: 700px;
+  margin-top: 50px;
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the pagination items */
+  align-items: center; /* Vertically align items */
+  gap: 10px; /* Add spacing between elements */
+  position: relative; /* Allows positioning child elements */
+}
+
+.pagination-btn {
+  font-family: "Circular Std Book";
+  font-size: 11.04px;
+font-style: normal;
+font-weight: 450;
+  margin-right: auto; /* Pushes the "Previous" button to the left */
+  background-color: #f9f9f9;
+  border:  #ccc;
+}
+
+.pagination-btn2 {
+  font-family: "Circular Std Book";
+  font-size: 11.04px;
+font-style: normal;
+font-weight: 450;
+  margin-left: auto; /* Pushes the "Next" button to the right */
+  background-color: #f9f9f9;
+  border:  #ccc;
+}
+
+.pagination-page {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination-page.active {
+  background-color: gray;
+  color: #fff;
+  border-color: #007bff;
+}
+
+
+@media (min-width: 921px) and (max-width: 1024px){
+
+
+  .pagination {
+    max-width: 1000px;
+    margin-top: 50px;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the pagination items */
+    align-items: center; /* Vertically align items */
+    gap: 10px; /* Add spacing between elements */
+    position: relative; /* Allows positioning child elements */
+  }
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1100px){
+
+
+  .pagination {
+    max-width: 1000px;
+    margin-top: 50px;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the pagination items */
+    align-items: center; /* Vertically align items */
+    gap: 10px; /* Add spacing between elements */
+    position: relative; /* Allows positioning child elements */
+  }
+
+}
+
+
+@media (min-width: 1100px) and (max-width: 1200px){
+
+
+  .pagination {
+    max-width: 1100px;
+    margin-top: 50px;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the pagination items */
+    align-items: center; /* Vertically align items */
+    gap: 10px; /* Add spacing between elements */
+    position: relative; /* Allows positioning child elements */
+  }
+
+}
