@@ -50,7 +50,13 @@ font-weight: 450;
   color: #fff;
   border-color: #007bff;
 }
+ @media (min-width: 200px) and (max-width: 453px){
 
+.pagination{
+  max-width: 210%;
+}
+
+} 
 
 @media (min-width: 921px) and (max-width: 1024px){
 

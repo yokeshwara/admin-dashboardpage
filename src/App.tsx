@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ReactECharts from "echarts-for-react";  
 import './App.css';  
 import Pagination from './Components/Pagination';
+import * as echarts from 'echarts';
 
 
 const Dashboard = () => {  
@@ -40,13 +41,14 @@ const Dashboard = () => {
     }
   };
 
+
   const option = {
     tooltip: {
       trigger: 'axis',
       backgroundColor: '#fff',
       borderColor: '#ddd',
       borderWidth: 1,
-      padding: 10,
+      padding: 20,
       textStyle: {
         color: '#333',
       },
@@ -55,7 +57,7 @@ const Dashboard = () => {
         lineStyle: {
           color: '#00C0DA',
           width: 2,
-          type: 'solid'
+          type: 'solid',
         },
         label: {
           show: false,
@@ -66,21 +68,22 @@ const Dashboard = () => {
     grid: {
       left: '1%',
       right: '3%',
-      bottom: '10%',
+      bottom: '5%', // Adjust space below the X-axis
+      top: '10%', // Adjust space above the chart
       containLabel: true,
     },
     xAxis: {
       type: 'category',
-      data: timePeriod === "Last 7 days" 
-        ? ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-        : Array.from({ length: 30 }, (_, i) => `Day ${i + 1}`),
+      data:
+        timePeriod === 'Last 7 days'
+          ? ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+          : Array.from({ length: 30 }, (_, i) => `Day ${i + 1}`),
       axisLabel: {
         color: '#8a8a8a',
       },
       axisLine: {
         lineStyle: {
           color: '#f0f0f0',
-         
         },
       },
       axisTick: {
@@ -95,12 +98,11 @@ const Dashboard = () => {
       interval: 2000,
       axisLabel: {
         color: '#8a8a8a',
-        formatter: (value: number) => `${value / 1000}k`,
+        formatter: (value: any) => `${value / 1000}k`,
       },
       axisLine: {
         lineStyle: {
           color: '#f0f0f0',
-       
         },
       },
       splitLine: {
@@ -115,10 +117,12 @@ const Dashboard = () => {
         color: '#4ac2f1',
         lineStyle: {
           width: 3,
-        
         },
         areaStyle: {
-          color: 'rgba(74, 194, 241, 0.3)',
+          color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+            { offset: 0, color: 'rgba(74, 194, 241, 0.7)' }, // Top color
+            { offset: 1, color: 'rgba(74, 194, 241, 0)' },   // Bottom color
+          ]),
         },
         smooth: true,
         symbol: 'circle',
@@ -147,15 +151,15 @@ const Dashboard = () => {
     series: [
       {
         type: "pie",
-        radius: ["77%", "90%"], // Doughnut thickness
-        startAngle: 200, // Start from left (180 degrees)
-        endAngle: 340, // End at right (360 degrees)
+        radius: ["77%", "92%"], // Doughnut thickness
+        startAngle: 209, // Start from left (180 degrees)
+        endAngle: 330, // End at right (360 degrees)
         data: [
-          { value: 750, name: "Green", itemStyle: { color: "#99db74", borderRadius: "50%" } },
+          { value: 390, name: "Green", itemStyle: { color: "#99db74", borderRadius: "50%" } },
           { value: 10, name: "", itemStyle: { color: "transparent" } }, // Empty space
-          { value: 900, name: "Purple", itemStyle: { color: "#b18fcf", borderRadius: "50%" } },
+          { value: 460, name: "Purple", itemStyle: { color: "#b18fcf", borderRadius: "50%" } },
           { value: 10, name: "", itemStyle: { color: "transparent" } }, // Empty space
-          { value: 1600, name: "Red", itemStyle: { color: "#d98b9d", borderRadius: "50%" } },
+          { value: 950, name: "Red", itemStyle: { color: "#d98b9d", borderRadius: "50%" } },
           { value: 10, name: "", itemStyle: { color: "transparent" } }, // Empty space
         ],
         labelLine: {
@@ -311,7 +315,7 @@ const option3 = {
           <img   
             src="./assets/Notifications.svg"   
             alt="Notifications"   
-            className="header_icon"   
+            className="header_icons"   
           />  
            <h2 className="icon_titles">Notifications</h2>  
           <img   
@@ -322,9 +326,12 @@ const option3 = {
           <h2 className="icon_title">Settings</h2>  
         </div>  
       </header> 
+      <div className='main'>
+       
       <div className="dashboard-heading">  
         <h1>Dashboard</h1>  
       </div>  
+      <div className='dashboard1'>
       <div className="dashboard-title">  
         <h2>User Engagement Over Time</h2>  
       </div>  
@@ -340,22 +347,22 @@ const option3 = {
             <option>Last Month</option>  
           </select>  
         </div>  
-    
+     </div>
       <div className="engagement-metrics">  
         <div className="metric1">  
-          <h3>Reading</h3>  
+          <h3 className='metric-title1'>Reading</h3>  
           <p className='metric-paragraph'>1231.10 <span className="percent">+25%</span></p>  
         </div>  
         <div className="metric2">  
-          <h3>Listing</h3>  
+          <h3 className='metric-title1'>Listing</h3>  
           <p className='metric-paragraph'>1912 <span className="percent">+32%</span></p>  
         </div>  
         <div className="metric3">  
-          <h3>Share</h3>  
+          <h3 className='metric-title1'>Share</h3>  
           <p className='metric-paragraph'>120 <span className="percent">+13%</span></p>  
         </div>  
       </div>  
-      <div className="chart-container" style={{ width: '98%', height: '700px', backgroundColor: 'white', borderRadius: '10px' }}>  
+      <div className="chart-container" style={{ width: '98%', height: '700px', borderRadius: '10px' }}>  
         <ReactECharts option={option} />  
       </div>  
       <div className="week-item1">  
@@ -366,7 +373,8 @@ const option3 = {
           <span className="dot teal-dot"></span>  
           <span>Last Week: 7,654</span>  
         </div> 
-
+        </div>
+    
  
     <div className="metrics-container">  
       <h2 className='key-title'>Key Metrics</h2>  
@@ -393,15 +401,19 @@ const option3 = {
         </div>  
       </div>  
     </div>  
+    <div className='bottom-container'>
+    <div className='main1'>
+      
      <div className="half-doughnut-container">
           <h3 className="top-title">Top Genres</h3>
-          <div className="chart-wrapper" style={{ width: "100%", height: "400px" }}>
+          <div className="chart-wrapper" style={{ width: "100%", height: "300px" }}>
             <ReactECharts option={options} />
           </div>
           <div className="chart-text">
         <p className="chart-description">All genres</p>
         <h2 className="chart-number">156K</h2>
         <p className="chart-percentage">↑ 8%</p>
+      </div>
       </div>
       <div className="genre-list">  
       <div className="genre-item">  
@@ -426,7 +438,9 @@ const option3 = {
       </div>  
     </div>  
         </div>
-        <div className="dashboard">  
+        
+        <div className='main2'>
+        <div className='dashboard'>
             <h2 className="title">User Engagement</h2>  
             <p className="subtitle">User downloads and ratings info</p>  
             <div className="time-range">  
@@ -439,7 +453,7 @@ const option3 = {
         <thead>  
           <tr>  
             <th>Details</th>  
-            <th >Information</th>  
+            <h2 className='information'>Information</h2>  
             <h2 className='progress'>Progress</h2>  
           </tr>  
         </thead>  
@@ -517,7 +531,8 @@ const option3 = {
         </tbody>  
       </table>  
     </div>  
-  
+
+
 
       {/* Pagination Component */}
       <Pagination 
@@ -525,9 +540,9 @@ const option3 = {
         totalPages={totalPages} 
         onPageChange={handlePageChange} 
       />
-  
-
-        </div>  
+      </div>
+      </div>
+  </div>
        
     
 
