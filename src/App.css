@@ -660,11 +660,11 @@ border: 1px solid #F6F7F7;
     }  
     
     .header_title {  
-      width: 110px;
+      width: 100px;
       color: #161725;
       margin-left: 10px;
     font-family: "Circular Std Book";
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -703,6 +703,7 @@ border: 1px solid #F6F7F7;
       border: none;
       box-shadow: none;
       margin-left: 25px;
+      background-color: transparent;
     }
   
     .dashboard1{  
@@ -1039,13 +1040,14 @@ border: 1px solid #F6F7F7;
       width: 70%;
       border: none; /* Example color for the border */
       box-shadow: none;
+      background-color: transparent;
     }
     
     .main2 {
       width: 90%;
       border: none; /* Different color for the second border */
       box-shadow: none;
-     
+      background-color: transparent;
     }
     .title {
       font-size: 14px;
