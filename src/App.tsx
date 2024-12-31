@@ -41,7 +41,7 @@ const Dashboard = () => {
     }
   };
 
-
+ 
   const option = {
     tooltip: {
       trigger: 'axis',
@@ -68,8 +68,8 @@ const Dashboard = () => {
     grid: {
       left: '1%',
       right: '3%',
-      bottom: '5%', // Adjust space below the X-axis
-      top: '10%', // Adjust space above the chart
+      bottom: '15%', // Increased bottom spacing for rotated labels
+      top: '10%',
       containLabel: true,
     },
     xAxis: {
@@ -80,6 +80,9 @@ const Dashboard = () => {
           : Array.from({ length: 30 }, (_, i) => `Day ${i + 1}`),
       axisLabel: {
         color: '#8a8a8a',
+        fontSize: 12, // Larger font size for better readability
+        rotate: 0, // Rotate labels if necessary (e.g., rotate: 45 for diagonal)
+        padding: [5, 0, 0, 0], // Add padding to avoid overlap
       },
       axisLine: {
         lineStyle: {
@@ -113,15 +116,15 @@ const Dashboard = () => {
       {
         name: 'Engagement',
         type: 'line',
-        data: getChartData(),
+        data: getChartData(), // Replace with your actual data
         color: '#4ac2f1',
         lineStyle: {
           width: 3,
         },
         areaStyle: {
           color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-            { offset: 0, color: 'rgba(74, 194, 241, 0.7)' }, // Top color
-            { offset: 1, color: 'rgba(74, 194, 241, 0)' },   // Bottom color
+            { offset: 0, color: 'rgba(74, 194, 241, 0.7)' },
+            { offset: 1, color: 'rgba(74, 194, 241, 0)' },
           ]),
         },
         smooth: true,
@@ -143,6 +146,7 @@ const Dashboard = () => {
       },
     ],
   };
+  
   
   
   

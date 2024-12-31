@@ -53,7 +53,7 @@ font-weight: 450;
  @media (min-width: 200px) and (max-width: 453px){
 
 .pagination{
-  max-width: 210%;
+  max-width:80%;
 }
 
 } 

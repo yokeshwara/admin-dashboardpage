@@ -155,7 +155,7 @@ line-height: normal;
        color: #5E5C74;
     text-align: center;  
     font-size: 14px;
-    margin-left: -20px;
+    margin-left: -60px;
     font-family: "Circular Std Book";
   }
   
@@ -168,13 +168,13 @@ line-height: normal;
   .metric3 {  
     color: #5E5C74;
     text-align: center;  
-    margin-right: -90px;
+    
     font-family: "Circular Std Book";
   } 
   
   .metric-paragraph{
     color: #100F18;
-    margin-right: -22px;
+    margin-left: -22px;
     font-family: "Circular Std Book";
   }
   
@@ -359,7 +359,7 @@ border: 1px solid #F6F7F7;
   
   
   .chart-wrapper{
-    max-width: 900px;
+    max-width: 700px;
     margin-left: -140px;
     margin-bottom: -20px;
   }
@@ -632,10 +632,11 @@ border: 1px solid #F6F7F7;
   }
 
 
-  @media (min-width: 200px)and (max-width: 374px) {
+
+  @media (min-width: 200px) and (max-width: 499px) {
 
     .header {  
-      width:210%;
+      width:92%;
       margin-top: 20px;
       display: flex;  
       align-items: center;  
@@ -659,565 +660,29 @@ border: 1px solid #F6F7F7;
     }  
     
     .header_title {  
+      width: 110px;
       color: #161725;
       margin-left: 10px;
     font-family: "Circular Std Book";
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    }  
-    
-    .header_actions {  
-      display: flex;  
-      align-items: center;  
-      margin-top: -15px;
-      margin-right: 40px;  
-    }  
-    
-  
-    
-    .header_icons {  
-      margin-right: -5px;
-      margin-left: 25px;
-      cursor: pointer;  
-      width: 18px;  
-      height: 18px;  
-      
-     
-    }
-    
-
-    .main{
-      width:180%;
-      margin-left: 40px;
-    }
-  
-    .dashboard1{  
-      display: flex;
-      align-items: center;  
-      justify-content: space-between;  
-      padding: 10px 10px;  
-    }  
-  
-    .dashboard-heading{
-     
-  
-  font-family: "Circular Std Book";
-  font-size: 10px;
-  
-  
-  line-height: normal;
-    }
-    
-    .dashboard-title{
-     width: 790px;
-    
-     margin-top: 20px;
-     font-family: "PoppinsRegular";
-    font-size: 12px;
-    
-   
-  
-    }
-    
-    .engagement-metrics {  
-      display: flex;  
-      flex-direction: column;
-      margin: 20px 0;  
-    }  
-    
-    .metric1 {  
-      color: #5E5C74;
-      text-align: center;  
-      margin-left: 20px;
-      font-family: "Circular Std Book";
-      font-size: 18px;
-    }  
-  
-    .metric-title1{
-         color: #5E5C74;
-      text-align: center;  
-      font-size: 18px;
-     
-      font-family: "Circular Std Book";
-    }
-    
-    .metric2 {  
-      margin-left: 10px;
-      color: #5E5C74;
-      text-align: center;  
-      font-family: "Circular Std Book";
-      font-size: 18px;
-    } 
-    
-    .metric3 {  
-      color: #5E5C74;
-      text-align: center;  
-      margin-left: -90px;
-      font-family: "Circular Std Book";
-      font-size: 18px;
-    } 
-    
-    .metric-paragraph{
-      color: #100F18;
-
-      font-family: "Circular Std Book";
-    }
-    
-    .percent {  
-      font-family: "Circular Std Book";
-    width: 53px;
-    height: 27px;
-    background-color: #4AA773;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    color: #fff;
-    padding: 4px;
-    border-radius: 20px;
-    }  
-    
-    .chart-container {  
-      margin-left: -30px;
-      padding: 40px;  
-      margin-top: -40px;
-    }  
-    
-    .week-data {  
-      text-align: right;  
-      margin-top: 10px;  
-    }  
-    
-    .dropdowns {  
-      font-family: "Circular Std Book";
-      color: #100F18;
-      margin-left: -40px;
-      padding-left: 60px;
-      gap: 10px; /* Space between dropdowns */  
-      
-    }  
-    
-    .dropdown {  
-      font-family: "Circular Std Book";
-      color: #100F18;
-      padding: 10px;  
-      margin-bottom: -40px;
-      border: 1px solid #ddd;  
-      border-radius: 5px;  
-      font-size: 16px;  
-      cursor: pointer;  
-    }
-    
-    
-    .week-item1 {  
-      margin-top: -400px;
-      margin-left: 120px;
-      display: flex;  
-      align-items: center;  
-      font-size: 20px;
-    }  
-    
-    .week-item2 {  
-      margin-top: -20px;
-      margin-left: 380px;
-      display: flex;  
-      align-items: center;  
-      font-size: 20px;
-    }  
-    
-    .dot {  
-      width: 10px; /* Size of the dot */  
-      height: 10px; /* Size of the dot */  
-      border-radius: 50%; /* Makes it circular */  
-      margin-right: 8px; /* Space between dot and text */  
-    }  
-    
-    .blue-dot {  
-      background-color: #556AB1;; /* Blue color for "This Week" */  
-    }  
-    
-    .teal-dot {  
-      background-color: #4CC3D0; /* Teal color for "Last Week" */  
-    }
-    
-    .metrics-container {  
-      margin-left: 250px;
-      margin-top: 20px;
-      padding: 30px;  
-      background-color: #f9f9f9;  
-      border-radius: 10px;  
-     
-    }  
-    
-    .metrics-container h2 {  
-      margin-bottom: 20px;  
-      font-weight: 500;  
-      color: black;  
-      font-size: 36px;
-      font-family: "Circular Std Book";
-    }  
-    
-    .metrics {  
-      display: flex;  
-      gap: 90px;  
-      padding-left: -50px;
-      flex-wrap: wrap;  
-      justify-content: space-between;  
-    }  
-    
-    .metric-card {  
-      flex: 1;  
-      min-width: 100px;  
-      padding: 15px;  
-      border-radius: 22px;
-  border: 1px solid #F6F7F7;
-  
-  
-  
-    }  
-    
-    .key-title{
-      margin-left: -220px;
-      color: #100F18;
-    font-family: "Circular Std";
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 92.308% */
-    }
-    .metric-title {  
-      font-size: 18px;  
-      width: 200px;
-      font-family: "PoppinsRegular";
-      font-weight: 400;
-    }  
-    
-    .metric-value {  
-      font-family: "Chivo";
-    
-      font-size: 34px;  
-      font-weight: bold;  
-      margin: 10px 0;  
-    
-    }  
-    
-    .metric-change {  
-      font-size: 20px;  
-    }  
-    
-    .metric-change.green {  
-      color: green;  
-    }  
-    
-    .metric-change.red {  
-      color: red;  
-    }
-  
-    .half-doughnut-container{
-      display: flex;
-      flex-direction: row;
-    }
-    .chart-wrapper {
-      position: absolute;
-      max-width: 500px;
-      margin-left: 60px;
-      margin-top: 20px;
-    }
-    .chart-text {
-      position: relative;
-      margin-top:  60px;
-      margin-left: 30px;
-    }
-   
-  
-    .chart-number {
-      margin-top: -20px;
-      margin-left: 50px;
-      font-size: 36px;
-    }
-  
-    .chart-percentage {
-      font-size: 14px;
-      margin-top: -40px;
-      margin-left: 50px;
-    }
-  
-    .chart-description {
-      margin-left: 60px;
-      font-size: 14px;
-    }
-  
-    .genre-list {
-      font-size: 20px;
-      margin-top: 40px;
-      margin-left: 252px;
-      text-align: center;
-    }
-
-    .genre-name{
-      text-align: left;
-      width: 300px;
-      font-size: 20px;
-    }
-  
-    .genre-item {
-      margin: 5px 0;
-    }
-  
-    .dashboard {
-      margin-left: 0px;
-      margin-top: 270px;
-      padding: 15px;
-    }
-  
-  
-  
-    .title {
-      margin-left: 30px;
-      font-size: 18px;
-    }
-
-    .top-title {
-      
-      font-size: 30px;
-    }
-    
-    
-  
-    .subtitle {
-      margin-left: 30px;
-      font-size: 15px;
-      width: 300px;
-    }
-  
-    .time-range {
-      margin-top: -50px;
-      margin-left: 340px;
-      justify-content: center;
-      width: 300px;
-
-    }
-  
-    .time-range span {
-      font-size: 16px;
-      padding: 6px 10px;
-     
-    }
-  
-  
-  
-    .bottom-container{
-      display: flex;
-      flex-direction: column;
-      
-    }
-  
-    .main1 {
-      width: 150%;
-      border: none; /* Example color for the border */
-      box-shadow: none;
-    }
-    
-    .main2 {
-      width: 200%;
-      border: none; /* Different color for the second border */
-      box-shadow: none;
-    }
-  
-    
-    .table-container {
-    padding-left: 20px;
-    margin-top: 7px;
-
-  }
-
-  .info-table {
-    width: 20%;
-  }
-
-  .info-table th,
-  .info-table td {
-    padding: 18px;
     font-size: 18px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
- 
-    
-  
-    .information{
-      font-family: "Circular Std Book";
-      font-size: 18.67px;
-      font-weight: 500;
-      margin-top: 25px;
-      padding-bottom: 19px;
-      margin-left: 100px;
-    }
-    
-    .progress{
-     
-      font-family: "Circular Std Book";
-      font-size: 18.67px;
-      font-weight: 500;
-      margin-top: -50px;
-      margin-left: 350px;
-      padding-bottom: 20px;
-    }
-  
-  
-    
-   
-    
-    .detail {  
-     
-      display: flex;  
-      align-items: center;  
-      width: 200px; 
-      font-size: 11.98px;
-    }  
-    
-    .value{
-      
-      margin-left: 90px;
-      color: #161725;
-    
-    font-family: "Circular Std";
-    font-size: 18.96px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    }
-     
-    
-    
-    .date {  
-      line-height: 4;
-      margin-left: -350px;
-      font-size: 12px;  
-      color: #888;  
-    }  
-    
-    
-    .date1 {  
-      margin-top: -60px;
-      margin-left: -330px;
-      line-height: 4;
-      font-size: 12px;  
-      color: #888;  
-    }  
-    
-    
-    .date2 {  
-      line-height: 4;
-      margin-left: -330px;
-    
-      font-size: 12px;  
-      color: #888;  
-    }  
-    
-    
-    .icon{
-      margin-top: 10px;
-      margin-left: -10px;
-      padding-right: 10px;
-      width: 23.32px;
-    height: 27.879px;
-    }
-    
-    .arrow-icon{
-      width: 12.825px;
-      height: 10.52px;
-    }
-    
-    .chart-container1{
-      margin-top: -35px;
-       margin-left: 190px;
-    }
-    
-    .chart-container2{
-      margin-top: -35px;
-      margin-left: 190px;
-    }
-    
-    .chart-container3{
-      margin-top: -35px;
-      margin-left: 190px;
-    }
-    
-    
-    .progress-indicator1{
-  
-      font-family: "Circular Std Book";
-      color: #ED2259;
-      margin-left: 350px;
-      margin-top: -10px;
-    }
-    
-    .progress-indicator2{
-  
-      font-family: "Circular Std Book";
-      
-      margin-left: 350px;
-    }  
-    .progress-indicator3{
-      font-family: "Circular Std Book";
-      margin-left: 350px;
-    }
-  
-  
-  }
-
-  @media (min-width: 375px)and (max-width: 453px) {
-
-    .header {  
-      width:205%;
-      margin-top: 20px;
-      display: flex;  
-      align-items: center;  
-      justify-content: space-between;  
-      padding: 10px 10px;  
-      border:1px solid #F6F7F7;
-      background-color: #F6F7F7;  
-      margin-left: 5px;
-      margin-right:35px;
-      box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-    }  
-    
-    .header_logo {  
-      display: flex;  
-      align-items: center;  
-    }  
-    
-    .header_avatar {  
-      border-radius: 50%;  
-      margin-right: 10px;  
-    }  
-    
-    .header_title {  
-      color: #161725;
-      margin-left: 10px;
-    font-family: "Circular Std Book";
-    font-size: 35px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     }  
 
     .icon_title{
-      font-size: 15px;
+      font-size: 12px;
     }
 
     .icon_titles{
-      font-size: 15px;
+      font-size: 12px;
     }
     
     .header_actions {  
       display: flex;  
       align-items: center;  
       margin-top: -15px;
-      margin-right: 40px;  
+      margin-right: 20px;  
     }  
     
   
@@ -1234,14 +699,19 @@ border: 1px solid #F6F7F7;
     
 
     .main{
-      width:180%;
+      width:50%;
+      border: none;
+      box-shadow: none;
+      margin-left: 25px;
     }
   
     .dashboard1{  
+      width: 300px;
       display: flex;
+      flex-direction: column;
       align-items: center;  
       justify-content: space-between;  
-      padding: 10px 10px;  
+      padding: 7px 7px;  
     }  
   
     .dashboard-heading{
@@ -1249,18 +719,18 @@ border: 1px solid #F6F7F7;
   
   font-family: "Circular Std Book";
   font-size: 10px;
-  
+
   
   line-height: normal;
     }
     
     .dashboard-title{
-     width: 790px;
+   
     
      margin-top: 20px;
      font-family: "PoppinsRegular";
-    font-size: 12px;
-    
+    font-size: 10px;
+    margin-left: -90px;
    
   
     }
@@ -1298,7 +768,7 @@ border: 1px solid #F6F7F7;
     .metric3 {  
       color: #5E5C74;
       text-align: center;  
-      margin-left: -90px;
+   
       font-family: "Circular Std Book";
       font-size: 18px;
     } 
@@ -1327,6 +797,7 @@ border: 1px solid #F6F7F7;
       margin-left: -30px;
       padding: 40px;  
       margin-top: -40px;
+      
     }  
     
     .week-data {  
@@ -1335,9 +806,10 @@ border: 1px solid #F6F7F7;
     }  
     
     .dropdowns {  
+      margin-top: 20px;
       font-family: "Circular Std Book";
       color: #100F18;
-      margin-left: -40px;
+      margin-left: -160px;
       padding-left: 60px;
       gap: 10px; /* Space between dropdowns */  
       
@@ -1350,30 +822,29 @@ border: 1px solid #F6F7F7;
       margin-bottom: -40px;
       border: 1px solid #ddd;  
       border-radius: 5px;  
-      font-size: 18px;  
+      font-size: 12px;  
       cursor: pointer;  
     }
     
     
     .week-item1 {  
       margin-top: -400px;
-      margin-left: 120px;
+      margin-left: -20px;
       display: flex;  
       align-items: center;  
-      font-size: 22px;
+      font-size: 12px;
     }  
     
     .week-item2 {  
-      margin-top: -20px;
-      margin-left: 380px;
+      width: 200px;
+      margin-top: -15px;
+      margin-left: 100px;
       display: flex;  
       align-items: center;  
-      font-size: 22px;
+      font-size: 12px;
     }  
 
-    .main{
-      margin-left: 25px;
-    }
+    
     
     .dot {  
       width: 10px; /* Size of the dot */  
@@ -1391,7 +862,7 @@ border: 1px solid #F6F7F7;
     }
     
     .metrics-container {  
-      margin-left: 250px;
+      margin-left: 50px;
       margin-top: 20px;
       padding: 30px;  
       background-color: #f9f9f9;  
@@ -1403,7 +874,7 @@ border: 1px solid #F6F7F7;
       margin-bottom: 20px;  
       font-weight: 500;  
       color: black;  
-      font-size: 36px;
+      font-size: 24px;
       font-family: "Circular Std Book";
     }  
     
@@ -1420,17 +891,17 @@ border: 1px solid #F6F7F7;
       min-width: 100px;  
       padding: 15px;  
       border-radius: 22px;
-  border: 1px solid #F6F7F7;
+
   
   
   
     }  
     
     .key-title{
-      margin-left: -220px;
+      margin-left: -40px;
       color: #100F18;
     font-family: "Circular Std";
-    font-size: 26px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 92.308% */
@@ -1466,30 +937,32 @@ border: 1px solid #F6F7F7;
     .half-doughnut-container{
       display: flex;
       flex-direction: row;
+      
     }
     .chart-wrapper {
       position: absolute;
       max-width: 500px;
-      margin-left: 60px;
+      margin-left: 5px;
       margin-top: 20px;
+      overflow-x: hidden;
     }
     .chart-text {
       position: relative;
-      margin-top:  60px;
-      margin-left: 30px;
+      margin-top:  70px;
+      margin-left: -100px;
     }
    
   
     .chart-number {
       margin-top: -20px;
-      margin-left: 50px;
+      margin-left: 55px;
       font-size: 36px;
     }
   
     .chart-percentage {
       font-size: 14px;
       margin-top: -40px;
-      margin-left: 50px;
+      margin-left: 55px;
     }
   
     .chart-description {
@@ -1500,14 +973,14 @@ border: 1px solid #F6F7F7;
     .genre-list {
       font-size: 20px;
       margin-top: 40px;
-      margin-left: 252px;
+      margin-left: 73px;
       text-align: center;
     }
 
     .genre-name{
       text-align: left;
-      width: 300px;
-      font-size: 20px;
+   
+      font-size: 18px;
     }
   
     .genre-item {
@@ -1524,11 +997,11 @@ border: 1px solid #F6F7F7;
   
     .title {
       font-size: 18px;
-      margin-left: 30px;
+      margin-left: -4px;
     }
 
     .top-title {
-      font-size: 30px;
+      font-size: 20px;
       
     }
     
@@ -1537,7 +1010,7 @@ border: 1px solid #F6F7F7;
     .subtitle {
       font-size: 16px;
       width: 300px;
-      margin-left: 30px;
+      margin-left: -4px;
     }
   
     .time-range {
@@ -1559,701 +1032,121 @@ border: 1px solid #F6F7F7;
     .bottom-container{
       display: flex;
       flex-direction: column;
-      
+      overflow-x: hidden;
     }
   
     .main1 {
-      width: 150%;
+      width: 70%;
       border: none; /* Example color for the border */
       box-shadow: none;
     }
     
     .main2 {
-      width: 205%;
+      width: 90%;
       border: none; /* Different color for the second border */
       box-shadow: none;
-    }
-  
-    
-    .table-container {
-    padding-left: 20px;
-    margin-top: 7px;
-
-  }
-
-  .info-table {
-    width: 20%;
-  }
-
-  .info-table th,
-  .info-table td {
-    padding: 18px;
-    font-size: 18px;
-    padding-left: 10px;
-    padding-right: 8px;
-  }
- 
-    
-  
-    .information{
-      font-family: "Circular Std Book";
-      font-size: 18.67px;
-      font-weight: 500;
-      margin-top: 25px;
-      padding-bottom: 19px;
-      margin-left: 100px;
-    }
-    
-    .progress{
-     
-      font-family: "Circular Std Book";
-      font-size: 18.67px;
-      font-weight: 500;
-      margin-top: -50px;
-      margin-left: 350px;
-      padding-bottom: 20px;
-    }
-  
-  
-    
-   
-    
-    .detail {  
-     
-      display: flex;  
-      align-items: center;  
-      width: 200px; 
-      font-size: 11.98px;
-    }  
-    
-    .value{
-      
-      margin-left: 90px;
-      color: #161725;
-    
-    font-family: "Circular Std";
-    font-size: 18.96px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    }
-     
-    
-    
-    .date {  
-      line-height: 4;
-      margin-left: -350px;
-      font-size: 12px;  
-      color: #888;  
-    }  
-    
-    
-    .date1 {  
-      margin-top: -60px;
-      margin-left: -330px;
-      line-height: 4;
-      font-size: 12px;  
-      color: #888;  
-    }  
-    
-    
-    .date2 {  
-      line-height: 4;
-      margin-left: -330px;
-      font-size: 12px;  
-      color: #888;  
-    }  
-    
-    
-    .icon{
-      margin-top: 10px;
-      margin-left: -10px;
-      padding-right: 10px;
-      width: 23.32px;
-    height: 27.879px;
-    }
-    
-    .arrow-icon{
-      width: 12.825px;
-      height: 10.52px;
-    }
-    
-    .chart-container1{
-      margin-top: -35px;
-       margin-left: 190px;
-    }
-    
-    .chart-container2{
-      margin-top: -35px;
-      margin-left: 190px;
-    }
-    
-    .chart-container3{
-      margin-top: -35px;
-      margin-left: 190px;
-    }
-    
-    
-    .progress-indicator1{
-  
-      font-family: "Circular Std Book";
-      color: #ED2259;
-      margin-left: 350px;
-      margin-top: -10px;
-    }
-    
-    .progress-indicator2{
-  
-      font-family: "Circular Std Book";
-      
-      margin-left: 350px;
-    }  
-    .progress-indicator3{
-      font-family: "Circular Std Book";
-      margin-left: 350px;
-    }
-  
-  
-  }
-  
-  
-  @media (min-width: 454px)and (max-width: 499px) {
-
-    .header {  
-      width:150%;
-      margin-top: 20px;
-      display: flex;  
-      align-items: center;  
-      justify-content: space-between;  
-      padding: 10px 10px;  
-      border:1px solid #F6F7F7;
-      background-color: #F6F7F7;  
-      margin-left: 5px;
-      margin-right:35px;
-      box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-    }  
-    
-    .header_logo {  
-      display: flex;  
-      align-items: center;  
-    }  
-    
-    .header_avatar {  
-      border-radius: 50%;  
-      margin-right: 10px;  
-    }  
-    
-    .header_title {  
-      color: #161725;
-      margin-left: 10px;
-    font-family: "Circular Std Book";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    }  
-    
-    .header_actions {  
-      display: flex;  
-      align-items: center;  
-      margin-top: -15px;
-      margin-right: 40px;  
-    }  
-    
-  
-    
-    .header_icons {  
-      margin-right: -5px;
-      margin-left: 25px;
-      cursor: pointer;  
-      width: 18px;  
-      height: 18px;  
-      
      
     }
-
-    .main{
-      width:140%;
-    }
-  
-    .dashboard1{  
-      display: flex;
-      align-items: center;  
-      justify-content: space-between;  
-      padding: 10px 10px;  
-    }  
-  
-    .dashboard-heading{
-     
-  
-  font-family: "Circular Std Book";
-  font-size: 10px;
-  
-  
-  line-height: normal;
-    }
-    
-    .dashboard-title{
-     width: 790px;
-    
-     margin-top: 20px;
-     font-family: "PoppinsRegular";
-    font-size: 9px;
-    
-   
-  
-    }
-    
-    .engagement-metrics {  
-      display: flex;  
-      flex-direction: column;
-      margin: 20px 0;  
-    }  
-    
-    .metric1 {  
-      color: #5E5C74;
-      text-align: center;  
-      margin-left: 20px;
-      font-family: "Circular Std Book";
-    }  
-  
-    .metric-title1{
-         color: #5E5C74;
-      text-align: center;  
-      font-size: 17px;
-     
-      font-family: "Circular Std Book";
-    }
-    
-    .metric2 {  
-      margin-left: 10px;
-      color: #5E5C74;
-      text-align: center;  
-      font-family: "Circular Std Book";
-    } 
-    
-    .metric3 {  
-      color: #5E5C74;
-      text-align: center;  
-      margin-left: -90px;
-      font-family: "Circular Std Book";
-    } 
-    
-    .metric-paragraph{
-      color: #100F18;
-
-      font-family: "Circular Std Book";
-    }
-    
-    .percent {  
-      font-family: "Circular Std Book";
-    width: 53px;
-    height: 27px;
-    background-color: #4AA773;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    color: #fff;
-    padding: 4px;
-    border-radius: 20px;
-    }  
-    
-    .chart-container {  
-      
-      padding: 40px;  
-      margin-top: -40px;
-    }  
-    
-    .week-data {  
-      text-align: right;  
-      margin-top: 10px;  
-    }  
-    
-    .dropdowns {  
-      font-family: "Circular Std Book";
-      color: #100F18;
-      margin-left: -40px;
-      padding-left: 60px;
-      gap: 10px; /* Space between dropdowns */  
-      
-    }  
-    
-    .dropdown {  
-      font-family: "Circular Std Book";
-      color: #100F18;
-      padding: 8px;  
-      margin-bottom: -40px;
-      border: 1px solid #ddd;  
-      border-radius: 5px;  
-      font-size: 16px;  
-      cursor: pointer;  
-    }
-    
-    
-    .week-item1 {  
-      margin-top: -400px;
-      margin-left: 140px;
-      display: flex;  
-      align-items: center;  
-      font-size: 20px;
-    }  
-    
-    .week-item2 {  
-      margin-top: -20px;
-      margin-left: 370px;
-      display: flex;  
-      align-items: center;  
-      font-size: 20px;
-    }  
-    
-    .dot {  
-      width: 10px; /* Size of the dot */  
-      height: 10px; /* Size of the dot */  
-      border-radius: 50%; /* Makes it circular */  
-      margin-right: 8px; /* Space between dot and text */  
-    }  
-    
-    .blue-dot {  
-      background-color: #556AB1;; /* Blue color for "This Week" */  
-    }  
-    
-    .teal-dot {  
-      background-color: #4CC3D0; /* Teal color for "Last Week" */  
-    }
-    
-    .metrics-container {  
-      margin-left: 250px;
-      margin-top: 20px;
-      padding: 30px;  
-      background-color: #f9f9f9;  
-      border-radius: 10px;  
-     
-    }  
-    
-    .metrics-container h2 {  
-      margin-bottom: 20px;  
-      font-weight: 500;  
-      color: black;  
-      font-size: 26px;
-      font-family: "Circular Std Book";
-    }  
-    
-    .metrics {  
-      display: flex;  
-      gap: 90px;  
-      padding-left: -50px;
-      flex-wrap: wrap;  
-      justify-content: space-between;  
-    }  
-    
-    .metric-card {  
-      flex: 1;  
-      min-width: 100px;  
-      padding: 15px;  
-      border-radius: 22px;
-  border: 1px solid #F6F7F7;
-  
-  
-  
-    }  
-    
-    .key-title{
-      margin-left: -220px;
-      color: #100F18;
-    font-family: "Circular Std";
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 92.308% */
-    }
-    .metric-title {  
-      font-size: 14px;  
-      width: 200px;
-      font-family: "PoppinsRegular";
-      font-weight: 400;
-    }  
-    
-    .metric-value {  
-      font-family: "Chivo";
-    
-      font-size: 24px;  
-      font-weight: bold;  
-      margin: 10px 0;  
-    
-    }  
-    
-    .metric-change {  
-      font-size: 14px;  
-    }  
-    
-    .metric-change.green {  
-      color: green;  
-    }  
-    
-    .metric-change.red {  
-      color: red;  
-    }
-
-   
-  
-  
-    .half-doughnut-container{
-      display: flex;
-      flex-direction: row;
-    }
-    .chart-wrapper {
-      position: absolute;
-      max-width: 500px;
-      margin-left: 60px;
-      margin-top: 20px;
-    }
-    .chart-text {
-      position: relative;
-      margin-top:  60px;
-      margin-left: 90px;
-    }
-   
-  
-    .chart-number {
-      margin-top: -20px;
-      margin-left: 50px;
-      font-size: 36px;
-    }
-  
-    .chart-percentage {
-      font-size: 14px;
-      margin-top: -40px;
-      margin-left: 50px;
-    }
-  
-    .chart-description {
-      margin-left: 60px;
-      font-size: 14px;
-    }
-  
-    .genre-list {
-    
-      margin-top: 40px;
-      margin-left: 262px;
-      text-align: center;
-    }
-
-    .genre-name{
-      font-size: 18px;
-    }
-  
-    .genre-item {
-      margin: 5px 0;
-    }
-  
-    .dashboard {
-      margin-left: 0px;
-      margin-top: 270px;
-      padding: 15px;
-    }
-  
-  
-  
     .title {
-      font-size: 16px;
-      margin-left: 60px;
-    }
-  
-    .subtitle {
-      margin-left: 60px;
       font-size: 14px;
+      margin-top: 20px;
     }
-  
+    
+    .subtitle {
+      font-size: 9px;
+    }
+    
     .time-range {
-
-      margin-top: -50px;
-      margin-left: 300px;
+      margin: 10px 0;
+      gap: 10px;
       justify-content: center;
     }
-  
+    
     .time-range span {
-      font-size: 12px;
-      padding: 6px 10px;
-     
+      font-size: 8px;
+      padding: 5px 10px;
     }
-  
+    
     .table-container {
-      margin-top: 20px;
+      margin-left: -25px;
+      margin-top: 5px;
+  
+    }
+    
+    .info-table {
+      width: 100%;
+    }
+    
+    .info-table th,
+    .info-table td {
+      padding: 16px;
+      padding-left: 20px;
+      font-size: 10px;
+    }
+    
    
-      margin-left: 60px;
-    }
-  
-    .bottom-container{
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .main1 {
-      width: 150%;
-      border: none; /* Example color for the border */
-      box-shadow: none;
-    }
-    
-    .main2 {
-      width: 150%;
-      border: none; /* Different color for the second border */
-      box-shadow: none;
-    }
-  
-  
-  
-    .info-table {  
-    
-      width: 289px;
-      border-collapse: collapse;  
-    } 
-    
-    
-    .info-table th { 
-      padding-top: -1px;
-      background-color: #f9f9f9;  
-      text-align: left;  
-      font-family: "Circular Std Book";
-      font-size: 14.67px;
-      padding-left: 1px;
-      font-weight: 500;
-      
-    }  
-  
-    .information{
-      font-family: "Circular Std Book";
-      font-size: 14.67px;
-      font-weight: 500;
+
+    .information {
+      font-size: 10px; /* Adjust font size */
       margin-top: 20px;
-      padding-bottom: 20px;
-      margin-left: 100px;
-    }
-    
-    .progress{
-     
-      font-family: "Circular Std Book";
-      font-size: 14.67px;
-      font-weight: 500;
-      margin-top: -50px;
-      margin-left: 350px;
-      padding-bottom: 20px;
+      margin-left: 20px; /* Reduce left margin */
+      padding-bottom: 1px;
     }
   
-  
-    
-    .info-table td { 
-      font-family: "Circular Std Book";
-      margin-top: -10px; 
-      padding: 10px;  
-      border-bottom: 1px solid #eee;  
-      padding-right: 10px;
-      padding-left: 8px;
-    }  
-    
-    .detail {  
-     
-      display: flex;  
-      align-items: center;  
-      width: 130px;
-      font-size: 14.98px;
-    }  
-    
-    .value{
-      
-      margin-left: 110px;
-      color: #161725;
-    
-    font-family: "Circular Std";
-    font-size: 15.96px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    }
-     
-    
-    
-    .date {  
-      line-height: 5;
-      margin-left: -285px; 
-      font-size: 10px;  
-      color: #888;  
-    }  
-    
-    
-    .date1 {  
-      line-height: 5;
-      margin-left: -263px;
-      font-size: 10px;  
-      color: #888;  
-    }  
-    
-    
-    .date2 {  
-      line-height: 5;
-      margin-left: -263px;
-      font-size: 10px;  
-      color: #888;  
-    }  
-    
-    
-    .icon{
-      margin-top: 10px;
-      margin-left: -10px;
-      padding-right: 10px;
-      width: 23.32px;
-    height: 27.879px;
-    }
-    
-    .arrow-icon{
-      width: 12.825px;
-      height: 10.52px;
-    }
-    
-    .chart-container1{
-      margin-top: -35px;
-       margin-left: 190px;
-    }
-    
-    .chart-container2{
-      margin-top: -35px;
-      margin-left: 190px;
-    }
-    
-    .chart-container3{
-      margin-top: -35px;
-      margin-left: 190px;
+    .progress {
+      font-size: 10px; /* Adjust font size */
+      margin-top: -22px;
+      margin-left: 120px; /* Reduce left margin */
+      padding-bottom: 10px;
     }
     
     
-    .progress-indicator1{
-  
-      font-family: "Circular Std Book";
-      color: #ED2259;
-      margin-left: 350px;
-      margin-top: -10px;
+    .date1,
+    .date2 {
+      line-height: 4;
+      font-size: 10px;
+      text-align: center;
+      margin-left: -125px;
     }
     
-    .progress-indicator2{
-  
-      font-family: "Circular Std Book";
-      
-      margin-left: 350px;
-    }  
-    .progress-indicator3{
-      font-family: "Circular Std Book";
-      margin-left: 350px;
+    .date {
+      line-height: 4;
+      font-size: 120x;
+      text-align: center;
+      margin-left: -145px;
     }
-  
-  
+    
+    
+    
+    
+    
+    
+    .chart-container1,
+    .chart-container2,
+    .chart-container3 {
+      margin-left: 45px;
+      text-align: center;
+      margin-top: -30px;
+    }
+    
+    .progress-indicator1,
+    .progress-indicator2,
+    .progress-indicator3 {
+      margin-left: 120px;
+      margin-top: 20px;
+      text-align: center;
+    }
   }
   
+  
+  
+
   
   
   @media (min-width: 500px)and (max-width: 574px) {
 
     .header {  
-      width:140%;
+      width:105%;
       margin-top: 20px;
       display: flex;  
       align-items: center;  
@@ -2364,7 +1257,7 @@ border: 1px solid #F6F7F7;
     .metric3 {  
       color: #5E5C74;
       text-align: center;  
-      margin-left: -90px;
+    
       font-family: "Circular Std Book";
     } 
     
@@ -2434,7 +1327,7 @@ border: 1px solid #F6F7F7;
     
     .week-item2 {  
       margin-top: -20px;
-      margin-left: 360px;
+      margin-left: 290px;
       display: flex;  
       align-items: center;  
     }  
@@ -2528,7 +1421,7 @@ border: 1px solid #F6F7F7;
     }
 
     .main{
-      width:120%;
+      width:90%;
     }
   
     .half-doughnut-container{
@@ -2538,13 +1431,13 @@ border: 1px solid #F6F7F7;
     .chart-wrapper {
       position: absolute;
       max-width: 500px;
-      margin-left: 60px;
+      margin-left: 20px;
       margin-top: 20px;
     }
     .chart-text {
       position: relative;
       margin-top:  60px;
-      margin-left: 90px;
+      margin-left: 50px;
     }
    
   
@@ -2568,7 +1461,7 @@ border: 1px solid #F6F7F7;
     .genre-list {
       
       margin-top: 40px;
-      margin-left: 262px;
+      margin-left: 212px;
       text-align: center;
     }
 
@@ -2590,16 +1483,17 @@ border: 1px solid #F6F7F7;
   
   
     .title {
-      margin-left: 60px;
+      margin-left: -20px;
       font-size: 16px;
     }
   
     .subtitle {
-      margin-left: 60px;
+      margin-left: -20px;
       font-size: 10px;
     }
   
     .time-range {
+      width: 200px;
       margin-top: -50px;
       margin-left: 300px;
       justify-content: center;
@@ -2613,8 +1507,8 @@ border: 1px solid #F6F7F7;
   
     .table-container {
       margin-top: 20px;
-   
-      margin-left: 60px;
+      margin-left: -20px;
+      
     }
   
     .bottom-container{
@@ -2630,7 +1524,7 @@ border: 1px solid #F6F7F7;
     }
     
     .main2 {
-      width: 140%;
+      width: 98%;
       border: none; /* Different color for the second border */
       box-shadow: none;
     }
@@ -2787,7 +1681,7 @@ border: 1px solid #F6F7F7;
 @media (min-width: 575px)and (max-width: 639px) {
 
     .header {  
-      width:102%;
+      width:100%;
       margin-top: 20px;
       display: flex;  
       align-items: center;  
@@ -3309,7 +2203,7 @@ border: 1px solid #F6F7F7;
 
 @media (min-width: 640px)and (max-width: 699px) {
   .header {  
-    width:104%;
+    width:100%;
     margin-top: 20px;
     display: flex;  
     align-items: center;  
@@ -3838,7 +2732,7 @@ border: 1px solid #F6F7F7;
 
   @media (min-width: 700px)and (max-width: 762px) {
     .header {  
-      width:103%;
+      width:100%;
       margin-top: 20px;
       display: flex;  
       align-items: center;  
@@ -4165,13 +3059,13 @@ border: 1px solid #F6F7F7;
 
   
     .title {
-      margin-left: 100px;
+      margin-left: 30px;
       font-size: 16px;
     }
   
     .subtitle {
       font-size: 10px;
-      margin-left: 100px;
+      margin-left: 30px;
     }
   
     .time-range {
@@ -4189,7 +3083,7 @@ border: 1px solid #F6F7F7;
     .table-container {
       margin-top: 20px;
    
-      margin-left: 100px;
+      margin-left: 30px;
     }
 
     .bottom-container{
@@ -4357,9 +3251,9 @@ border: 1px solid #F6F7F7;
 
  
 
-  @media (min-width: 763px) and (max-width: 830px){
+  @media (min-width: 763px) and (max-width: 889px){
     .header {  
-      width:105%;
+      width:100%;
       margin-top: 20px;
       display: flex;  
       align-items: center;  
@@ -4410,10 +3304,13 @@ border: 1px solid #F6F7F7;
       
      
     }
+  
 
     .main{
-      margin-left: 40px;
+      width: 90%;
+
     }
+
 
     .chart-container{
       margin-left: -20px;
@@ -4476,7 +3373,7 @@ border: 1px solid #F6F7F7;
     .metric3 {  
       color: #5E5C74;
       text-align: center;  
-      margin-right: -90px;
+      margin-left: -90px;
       font-family: "Circular Std Book";
     } 
     
@@ -4711,7 +3608,7 @@ border: 1px solid #F6F7F7;
     .table-container {
       margin-top: 20px;
    
-      margin-left: 100px;
+      margin-left: 40px;
     }
 
     .bottom-container{
@@ -4877,9 +3774,9 @@ border: 1px solid #F6F7F7;
   }
 
 
-  @media (min-width: 831px) and (max-width: 1099px){
+  @media (min-width: 890px) and (max-width: 1099px){
     .header {  
-      width:103%;
+      width:100%;
       margin-top: 20px;
       display: flex;  
       align-items: center;  
@@ -4932,7 +3829,8 @@ border: 1px solid #F6F7F7;
     }
      
     .main{
-      margin-left: 40px;
+      width: 90%;
+
     }
 
 
@@ -5004,7 +3902,7 @@ border: 1px solid #F6F7F7;
     
     .metric-paragraph{
       color: #100F18;
-      margin-right: -172px;
+      margin-left: 120px;
       font-family: "Circular Std Book";
     }
     
@@ -7452,7 +6350,7 @@ border: 1px solid #F6F7F7;
 
 
 
-  @media (min-width: 1378px) and (max-width: 3500px){
+  @media (min-width: 1378px) and (max-width: 1500px){
     .header {  
       width:98%;
       margin-top: 20px;
