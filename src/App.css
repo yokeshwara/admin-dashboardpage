@@ -872,7 +872,7 @@ border: 1px solid #F6F7F7;
       margin-left: 50px;
       margin-top: 20px;
       padding: 30px;  
-      background-color: #f9f9f9;  
+      background-color: transparent;  
       border-radius: 10px;  
      
     }  
@@ -898,7 +898,7 @@ border: 1px solid #F6F7F7;
       min-width: 100px;  
       padding: 15px;  
       border-radius: 22px;
-
+      border: none;
   
   
   
@@ -1087,6 +1087,7 @@ border: 1px solid #F6F7F7;
     
     .info-table th,
     .info-table td {
+      background-color: transparent;
       padding: 16px;
       padding-left: 20px;
       font-size: 10px;
