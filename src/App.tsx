@@ -15,6 +15,7 @@ const Dashboard = () => {
   // Get items for the current page
   const startIndex = (currentPage - 1) * itemsPerPage;
   const currentItems = data3.slice(startIndex, startIndex + itemsPerPage);
+  const [selectedRange, setSelectedRange] = useState("7 Days");
   const [timePeriod, setTimePeriod] = useState("Last 7 days");
   const [timePeriod1, setTimePeriod1] = useState("Last 30 days");
   const [timePeriod2, setTimePeriod2] = useState("Last Month");
@@ -26,6 +27,10 @@ const Dashboard = () => {
     if (page >= 1 && page <= totalPages) {
       setCurrentPage(page);
     }
+  };
+
+  const handleChange = (event: any) => {
+    setSelectedRange(event.target.value);
   };
 
   const getChartData = () => {
@@ -82,7 +87,7 @@ const Dashboard = () => {
         color: '#8a8a8a',
         fontSize: 12, // Larger font size for better readability
         rotate: 0, // Rotate labels if necessary (e.g., rotate: 45 for diagonal)
-        padding: [5, 0, 0, 0], // Add padding to avoid overlap
+        padding: [15, 20, 150, 5], // Add padding to avoid overlap
       },
       axisLine: {
         lineStyle: {
@@ -153,17 +158,35 @@ const Dashboard = () => {
 
   const options = {
     series: [
+      // Background layer for the white outline
+      {
+        type: "pie",
+        radius: ["72%", "97%"], // Slightly larger radius for the white outline
+        startAngle: 209,
+        endAngle: 330,
+        data: [
+          { value: 1, name: "", itemStyle: { color: "transparent",  borderRadius: "50%", borderWidth: 15} }, // White background
+        ],
+        silent: true, // Disable interactions for the background layer
+        labelLine: {
+          show: false, // Hide labels and lines
+        },
+        label: {
+          show: false, // Hide labels
+        },
+      },
+      // Actual chart layer
       {
         type: "pie",
         radius: ["77%", "92%"], // Doughnut thickness
         startAngle: 209, // Start from left (180 degrees)
         endAngle: 330, // End at right (360 degrees)
         data: [
-          { value: 390, name: "Green", itemStyle: { color: "#99db74", borderRadius: "50%" } },
+          { value: 390, name: "Science Fiction", itemStyle: { color: "#99db74", borderRadius: "50%" } },
           { value: 10, name: "", itemStyle: { color: "transparent" } }, // Empty space
-          { value: 460, name: "Purple", itemStyle: { color: "#b18fcf", borderRadius: "50%" } },
+          { value: 460, name: "Fantasy", itemStyle: { color: "#b18fcf", borderRadius: "50%" } },
           { value: 10, name: "", itemStyle: { color: "transparent" } }, // Empty space
-          { value: 950, name: "Red", itemStyle: { color: "#d98b9d", borderRadius: "50%" } },
+          { value: 950, name: "Adventure", itemStyle: { color: "#d98b9d", borderRadius: "50%" } },
           { value: 10, name: "", itemStyle: { color: "transparent" } }, // Empty space
         ],
         labelLine: {
@@ -182,6 +205,7 @@ const Dashboard = () => {
       show: false, // Hide legend
     },
   };
+  
   
   const data = [  
     100, 220, 150, 100, 180, 120,   
@@ -330,11 +354,12 @@ const option3 = {
           <h2 className="icon_title">Settings</h2>  
         </div>  
       </header> 
-      <div className='main'>
+
        
       <div className="dashboard-heading">  
         <h1>Dashboard</h1>  
       </div>  
+      <div className='main'>
       <div className='dashboard1'>
       <div className="dashboard-title">  
         <h2>User Engagement Over Time</h2>  
@@ -371,11 +396,11 @@ const option3 = {
       </div>  
       <div className="week-item1">  
           <span className="dot blue-dot"></span>  
-          <span>This Week: 1,234</span>  
+          <span className='week-color'>This Week: </span> <span>1,234</span>  
       </div>
       <div className="week-item2">  
           <span className="dot teal-dot"></span>  
-          <span>Last Week: 7,654</span>  
+          <span className='week-color'>Last Week: </span><span>7,654</span>  
         </div> 
         </div>
     
@@ -425,7 +450,7 @@ const option3 = {
         <span className="genre-name">Adventure</span>  
       </div>  
       <div className="genre-item">  
-        <div className="genre-color" style={{ backgroundColor: '#BF6D83' }}></div>  
+        <div className="genre-color" style={{ backgroundColor: '#b18fcf' }}></div>  
         <span className="genre-name">Fantasy</span>  
       </div>  
       <div className="genre-item">  
@@ -452,6 +477,14 @@ const option3 = {
                 <span>1 Month</span>  
                 <span>3 Months</span>  
             </div>  
+            <div className="time-range-mobile">
+        <select value={selectedRange} onChange={handleChange}>
+          <option value="7 Days">7 Days</option>
+          <option value="1 Month">1 Month</option>
+          <option value="3 Months">3 Months</option>
+        </select>
+      </div>
+    </div>
             <div className="table-container">  
       <table className="info-table">  
         <thead>  
@@ -546,7 +579,7 @@ const option3 = {
       />
       </div>
       </div>
-  </div>
+
        
     
 
