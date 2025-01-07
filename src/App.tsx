@@ -15,7 +15,7 @@ const Dashboard = () => {
   // Get items for the current page
   const startIndex = (currentPage - 1) * itemsPerPage;
   const currentItems = data3.slice(startIndex, startIndex + itemsPerPage);
-  const [selectedRange, setSelectedRange] = useState("7 Days");
+  const [selectedRange, setSelectedRange] = useState("Durations");
   const [timePeriod, setTimePeriod] = useState("Last 7 days");
   const [timePeriod1, setTimePeriod1] = useState("Last 30 days");
   const [timePeriod2, setTimePeriod2] = useState("Last Month");
@@ -87,7 +87,7 @@ const Dashboard = () => {
         color: '#8a8a8a',
         fontSize: 12, // Larger font size for better readability
         rotate: 0, // Rotate labels if necessary (e.g., rotate: 45 for diagonal)
-        padding: [15, 20, 150, 5], // Add padding to avoid overlap
+        padding: [15, 20, 150, -20], // Add padding to avoid overlap
       },
       axisLine: {
         lineStyle: {
@@ -479,6 +479,7 @@ const option3 = {
             </div>  
             <div className="time-range-mobile">
         <select value={selectedRange} onChange={handleChange}>
+        <option value="Durations">Durations</option>
           <option value="7 Days">7 Days</option>
           <option value="1 Month">1 Month</option>
           <option value="3 Months">3 Months</option>

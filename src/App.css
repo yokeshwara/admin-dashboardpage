@@ -30,6 +30,17 @@
   url("https://db.onlinewebfonts.com/t/8237ffd368a85f9ee9886d2d8b79c68b.ttf")format("truetype"),
   url("https://db.onlinewebfonts.com/t/8237ffd368a85f9ee9886d2d8b79c68b.svg#Chivo")format("svg");
 }
+
+
+@font-face {
+  font-family: "Inter";
+  src: url("https://db.onlinewebfonts.com/t/54c1d1a09cedd2b7c6e3e470eb000a59.eot");
+  src: url("https://db.onlinewebfonts.com/t/54c1d1a09cedd2b7c6e3e470eb000a59.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/54c1d1a09cedd2b7c6e3e470eb000a59.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/54c1d1a09cedd2b7c6e3e470eb000a59.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/54c1d1a09cedd2b7c6e3e470eb000a59.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/54c1d1a09cedd2b7c6e3e470eb000a59.svg#Inter")format("svg");
+}
 body{
     overflow-x: hidden;
   }
@@ -236,6 +247,20 @@ line-height: normal;
     cursor: pointer;  
   }
 
+  .time-range-mobile{
+    font-family: "Circular Std Book";
+    display: flex;
+    width: 91px;
+    height: 22px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFF;
+ }
+ 
 
   
   
@@ -471,7 +496,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }  
   
   .subtitle {  
-  
+    font-family: "Inter";
     color: #929BB1;
     margin: -10px 0 20px; 
     font-size: 12.62px; 
@@ -484,9 +509,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     gap: 15px;  
   }  
 
-  .time-range-mobile{
-    display: none;
-  }
+  
   
   .time-range span {  
     font-family: "Circular Std Book";
@@ -758,7 +781,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
     
     .dashboard-title{
-      margin-left: -50px;
+      margin-left: -90px;
       color: #161725;
 
       font-size: 10px;
@@ -864,6 +887,8 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       font-size: 12px;  
       cursor: pointer;  
     }
+
+ 
     
     
     .week-item1 {  
@@ -909,12 +934,14 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       border-radius: 10px;  
      
     }  
+
+
     
     .metrics-container h2 {  
       margin-bottom: 20px;  
       font-weight: 500;  
       color: black;  
-      font-size: 24px;
+      font-size: 20px;
       font-family: "Circular Std Book";
     }  
     
@@ -982,6 +1009,8 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       flex-direction: row;
       
     }
+
+  
     .chart-wrapper {
       position: absolute;
       max-width: 300px;
@@ -992,7 +1021,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     .chart-text {
       position: relative;
       margin-top:  70px;
-      margin-left: 40px;
+      margin-left: -240px;
     }
    
   
@@ -1049,7 +1078,10 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
     .top-title {
-      display: none;
+      width: 300px;
+      font-size: 18px;
+      margin-top: -40px;
+      margin-left: -25px;
     }
     
     
@@ -1060,20 +1092,9 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       margin-left: -4px;
     }
   
-    .time-range {
-      display: none;
 
-    }
   
-    .time-range-mobile{
-        margin-left: -4px;
-        font-family: "Circular Std Book";
-        color: #354563;
-        font-size: 10.3px;
-        padding: 8px 16px;  
-        border: 1px solid #e0e0e0;  
-        border-radius: 5px;  
-    }
+   
   
   
   
@@ -1109,12 +1130,15 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
        display: none;
     }
     
-    
+    .time-range-mobile{
+      margin-top: -60px;
+      margin-left: 160px; 
+    }
  
     
     .table-container {
       margin-left: -7px;
-      margin-top: -30px;
+      margin-top: -20px;
       max-width: 400px;
     }
     
@@ -1291,7 +1315,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
     
     .dashboard-title{
-      margin-left: -125px;
+      margin-left: -145px;
       color: #161725;
 
       font-size: 10px;
@@ -1445,7 +1469,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       margin-bottom: 20px;  
       font-weight: 500;  
       color: black;  
-      font-size: 24px;
+      font-size: 20px;
       font-family: "Circular Std Book";
     }  
     
@@ -1475,7 +1499,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       margin-left: -30px;
       color: #100F18;
     font-family: "Circular Std";
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 92.308% */
@@ -1523,7 +1547,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     .chart-text {
       position: relative;
       margin-top:  70px;
-      margin-left: 70px;
+      margin-left: -200px;
     }
    
   
@@ -1576,11 +1600,15 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   
     .title {
       font-size: 18px;
-      margin-left: -4px;
+      margin-left: 22px;
     }
 
+    
     .top-title {
-      display: none;
+      width: 300px;
+      font-size: 18px;
+      margin-top: -40px;
+      margin-left: -15px;
     }
     
     
@@ -1588,7 +1616,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     .subtitle {
       font-size: 16px;
       width: 300px;
-      margin-left: -4px;
+      margin-left: 22px;
     }
   
     .time-range {
@@ -1604,7 +1632,12 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       padding: 6px 10px;
      
     }
-  
+    
+    .time-range-mobile{
+      margin-top: -60px;
+      margin-left: 230px; 
+    }
+ 
   
   
     .bottom-container{
@@ -1642,8 +1675,8 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
    
     
     .table-container {
-      margin-left: -5px;
-      margin-top: -35px;
+      margin-left: 15px;
+      margin-top: -25px;
        max-width: 200px;
     }
     
@@ -1817,7 +1850,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
     
     .dashboard-title{
-      margin-left: -125px;
+      margin-left: -180px;
       color: #161725;
 
       font-size: 10px;
@@ -2049,7 +2082,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     .chart-text {
       position: relative;
       margin-top:  70px;
-      margin-left: 70px;
+      margin-left: -200px;
     }
    
   
@@ -2104,9 +2137,13 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       font-size: 18px;
       margin-left: -4px;
     }
+   
 
-    .top-title {
-      display: none;
+       .top-title {
+      width: 300px;
+      font-size: 18px;
+      margin-top: -40px;
+      margin-left: -15px;
     }
     
     
@@ -2129,6 +2166,11 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       font-size: 16px;
       padding: 6px 10px;
      
+    }
+
+    .time-range-mobile{
+      margin-top: -50px;
+      margin-left: 230px; 
     }
   
   
@@ -2169,7 +2211,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     
     .table-container {
       margin-left: -5px;
-      margin-top: -35px;
+      margin-top: -20px;
       max-width: 300px;
     }
     
@@ -2347,7 +2389,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }
   
   .dashboard-title{
-    margin-left: -125px;
+    margin-left: -200px;
     color: #161725;
 
     font-size: 10px;
@@ -2501,7 +2543,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     margin-bottom: 20px;  
     font-weight: 500;  
     color: black;  
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Circular Std Book";
   }  
   
@@ -2579,7 +2621,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   .chart-text {
     position: relative;
     margin-top:  70px;
-    margin-left: 70px;
+    margin-left: -200px;
   }
  
 
@@ -2634,10 +2676,15 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 18px;
     margin-left: 22px;
   }
-
+  
+  
   .top-title {
-    display: none;
+    width: 300px;
+    font-size: 18px;
+    margin-top: -40px;
+    margin-left: -15px;
   }
+  
   
   
 
@@ -2653,7 +2700,10 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }
 
 
-
+  .time-range-mobile{
+    margin-top: -50px;
+    margin-left: 230px; 
+  }
 
 
   .bottom-container{
@@ -2691,7 +2741,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
   .table-container {
     margin-left: 15px;
-    margin-top: -35px;
+    margin-top: -20px;
     max-width: 300px;
   }
   
@@ -3019,7 +3069,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     margin-bottom: 20px;  
     font-weight: 500;  
     color: black;  
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Circular Std Book";
   }  
   
@@ -3097,7 +3147,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   .chart-text {
     position: relative;
     margin-top:  70px;
-    margin-left: 120px;
+    margin-left: -160px;
   }
  
 
@@ -3150,31 +3200,36 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
   .title {
     font-size: 18px;
-    margin-left: 22px;
+    margin-left: 42px;
   }
 
+  
   .top-title {
-    display: none;
+    width: 300px;
+    font-size: 18px;
+    margin-top: -40px;
+    margin-left: -15px;
   }
+  
   
   
 
   .subtitle {
-    font-size: 16px;
+    font-size: 14px;
     width: 300px;
-    margin-left: 22px;
+    margin-left: 42px;
   }
 
   .time-range {
     margin-top: -50px;
-    margin-left: 340px;
+    margin-left: 140px;
     justify-content: center;
     width: 300px;
 
   }
 
   .time-range span {
-    font-size: 16px;
+    font-size: 12px;
     padding: 6px 10px;
    
   }
@@ -3209,15 +3264,11 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 9px;
   }
   
-  .time-range {
-    display: none;
-  }
-  
-  
+
   
   .table-container {
-    margin-left: 15px;
-    margin-top: -35px;
+    margin-left: 40px;
+    margin-top: -20px;
     max-width: 400px;
   }
   
@@ -3531,7 +3582,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }
   
   .metrics-container {  
-    overflow-x: hidden;
+   
     margin-left: 70px;
     margin-top: 20px;
     padding: 30px;  
@@ -3541,10 +3592,11 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }  
   
   .metrics-container h2 {  
+    margin-left: -75px;
     margin-bottom: 20px;  
     font-weight: 500;  
     color: black;  
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Circular Std Book";
   }  
   
@@ -3614,7 +3666,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }
   .chart-wrapper {
     position: absolute;
-    max-width: 330px;
+    max-width: 420px;
     margin-left: 65px;
     margin-top: 20px;
     overflow-x: hidden;
@@ -3622,7 +3674,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   .chart-text {
     position: relative;
     margin-top:  70px;
-    margin-left: 120px;
+    margin-left: -100px;
   }
  
 
@@ -3649,9 +3701,9 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
     max-width: 700px;
     margin-top: 280px;
-    margin-left: -80px;
+    margin-left: -160px;
     display: grid;
-    gap: 30px;
+    gap: 40px;
     grid-template-columns: repeat(2, 1fr); /* 2 items per row */
   }
 
@@ -3675,24 +3727,24 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
   .title {
     font-size: 18px;
-    margin-left: 22px;
+    margin-left: 60px;
   }
 
+  
   .top-title {
-    display: none;
+    width: 300px;
+    font-size: 18px;
+    margin-top: -40px;
+    margin-left: -15px;
   }
+  
   
   
 
   .subtitle {
     font-size: 16px;
     width: 300px;
-    margin-left: 22px;
-  }
-
-  .time-range {
-    display: none;
-
+    margin-left: 60px;
   }
 
 
@@ -3726,19 +3778,21 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }
   
   .time-range {
-    margin: 10px 0;
+    margin-top: -50px;
+    margin-left: 140px;
+   
     gap: 10px;
     justify-content: center;
   }
   
   .time-range span {
-    font-size: 8px;
+    font-size: 12px;
     padding: 5px 10px;
   }
   
   .table-container {
-    margin-left: 15px;
-    margin-top: -35px;
+    margin-left: 55px;
+    margin-top: -15px;
     max-width: 400px;
   }
   
@@ -4051,7 +4105,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }
   
   .metrics-container {  
-    overflow-x: hidden;
+   
     margin-left: 70px;
     margin-top: 20px;
     padding: 30px;  
@@ -4061,10 +4115,11 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }  
   
   .metrics-container h2 {  
+    margin-left: -65px;
     margin-bottom: 20px;  
     font-weight: 500;  
     color: black;  
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Circular Std Book";
   }  
   
@@ -4135,7 +4190,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }
   .chart-wrapper {
     position: absolute;
-    max-width: 330px;
+    max-width: 500px;
     margin-left: 65px;
     margin-top: 20px;
     overflow-x: hidden;
@@ -4143,7 +4198,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   .chart-text {
     position: relative;
     margin-top:  70px;
-    margin-left: 120px;
+    margin-left: -70px;
   }
  
 
@@ -4170,7 +4225,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
     max-width: 700px;
     margin-top: 280px;
-    margin-left: -80px;
+    margin-left: -160px;
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(2, 1fr); /* 2 items per row */
@@ -4196,11 +4251,15 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
   .title {
     font-size: 18px;
-    margin-left: 65px;
+    margin-left: 95px;
   }
 
+  
   .top-title {
-    display: none;
+    width: 300px;
+    font-size: 18px;
+    margin-top: -40px;
+    margin-left: -15px;
   }
   
   
@@ -4208,19 +4267,19 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   .subtitle {
     font-size: 16px;
     width: 300px;
-    margin-left: 65px;
+    margin-left: 95px;
   }
 
   .time-range {
     margin-top: -50px;
-    margin-left: 340px;
+    margin-left: 200px;
     justify-content: center;
     width: 300px;
 
   }
 
   .time-range span {
-    font-size: 16px;
+    font-size: 12px;
     padding: 6px 10px;
    
   }
@@ -4255,14 +4314,12 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 9px;
   }
   
-  .time-range {
-     display: none;
-  }
+
   
 
   .table-container {
-    margin-left: 60px;
-    margin-top: -35px;
+    margin-left: 90px;
+    margin-top: -15px;
     max-width: 400px;
   }
   
@@ -4336,7 +4393,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 @media (min-width: 651px)and (max-width: 700px) {
    
   .header {  
-    width: 75%;
+    width: 81%;
     margin-top: -10px;
     display: flex;  
     align-items: center;  
@@ -4576,7 +4633,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }
   
   .metrics-container {  
-    overflow-x: hidden;
+  
     margin-left: 70px;
     margin-top: 20px;
     padding: 30px;  
@@ -4586,10 +4643,11 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }  
   
   .metrics-container h2 {  
+    margin-left: -65px;
     margin-bottom: 20px;  
     font-weight: 500;  
     color: black;  
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Circular Std Book";
   }  
   
@@ -4660,7 +4718,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }
   .chart-wrapper {
     position: absolute;
-    max-width: 330px;
+    max-width: 580px;
     margin-left: 65px;
     margin-top: 20px;
     overflow-x: hidden;
@@ -4668,7 +4726,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   .chart-text {
     position: relative;
     margin-top:  70px;
-    margin-left: 120px;
+    margin-left: -20px;
   }
  
 
@@ -4695,7 +4753,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
     max-width: 700px;
     margin-top: 280px;
-    margin-left: -80px;
+    margin-left: -160px;
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(2, 1fr); /* 2 items per row */
@@ -4721,11 +4779,15 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
   .title {
     font-size: 18px;
-    margin-left: 62px;
+    margin-left: 107px;
   }
 
+  
   .top-title {
-    display: none;
+    width: 300px;
+    font-size: 18px;
+    margin-top: -40px;
+    margin-left: -15px;
   }
   
   
@@ -4733,12 +4795,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   .subtitle {
     font-size: 16px;
     width: 300px;
-    margin-left: 62px;
-  }
-
-  .time-range {
-    display: none;
-
+    margin-left: 107px;
   }
 
 
@@ -4774,19 +4831,20 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }
   
   .time-range {
-    margin: 10px 0;
+    margin-top: -50px;
+    margin-left: 200px;
     gap: 10px;
     justify-content: center;
   }
   
   .time-range span {
-    font-size: 8px;
+    font-size: 12px;
     padding: 5px 10px;
   }
   
   .table-container {
-    margin-left: 55px;
-    margin-top: -30px;
+    margin-left: 100px;
+    margin-top: -10px;
     max-width: 500px;
   }
   
@@ -5101,7 +5159,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
     
     .metrics-container {  
-      overflow-x: hidden;
+      
       margin-left: 120px;
       margin-top: 20px;
       padding: 30px;  
@@ -5111,10 +5169,11 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }  
     
     .metrics-container h2 {  
+      margin-left: -125px;
       margin-bottom: 20px;  
       font-weight: 500;  
       color: black;  
-      font-size: 24px;
+      font-size: 20px;
       font-family: "Circular Std Book";
     }  
     
@@ -5193,7 +5252,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     .chart-text {
       position: relative;
       margin-top:  70px;
-      margin-left: 220px;
+      margin-left: -70px;
     }
    
   
@@ -5249,8 +5308,12 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       margin-left: 82px;
     }
   
+    
     .top-title {
-      display: none;
+      width: 300px;
+      font-size: 18px;
+      margin-top: -40px;
+      margin-left: -15px;
     }
     
     
@@ -5261,17 +5324,9 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       margin-left: 82px;
     }
   
-    .time-range {
-      display: none;
+   
   
-    }
-  
-    .time-range span {
-      font-size: 16px;
-      padding: 6px 10px;
-     
-    }
-  
+   
   
   
     .bottom-container{
@@ -5303,19 +5358,21 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
     
     .time-range {
-      margin: 10px 0;
+      margin-top: -50px;
+      margin-left: 100px;
       gap: 10px;
       justify-content: center;
     }
     
     .time-range span {
-      font-size: 8px;
+      
+      font-size: 12px;
       padding: 5px 10px;
     }
     
     .table-container {
       margin-left: 80px;
-      margin-top: -35px;
+      margin-top: -10px;
       max-width: 500px;
     }
     
@@ -5630,7 +5687,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
     
     .metrics-container {  
-      overflow-x: hidden;
+      
       margin-left: 120px;
       margin-top: 20px;
       padding: 30px;  
@@ -5640,10 +5697,11 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }  
     
     .metrics-container h2 {  
+      margin-left: -120px;
       margin-bottom: 20px;  
       font-weight: 500;  
       color: black;  
-      font-size: 24px;
+      font-size: 20px;
       font-family: "Circular Std Book";
     }  
     
@@ -5658,7 +5716,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     
     .metric-card {  
       flex: 1;  
-      min-width: 180px;  
+      min-width: 190px;  
       padding: 1px;  
       padding-left: 1px;
       border-radius: 22px;
@@ -5714,7 +5772,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
     .chart-wrapper {
       position: absolute;
-      max-width: 500px;
+      max-width: 620px;
       margin-left: 65px;
       margin-top: 20px;
       overflow-x: hidden;
@@ -5722,7 +5780,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     .chart-text {
       position: relative;
       margin-top:  70px;
-      margin-left: 220px;
+      margin-left: -20px;
     }
    
   
@@ -5775,11 +5833,15 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   
     .title {
       font-size: 18px;
-      margin-left: 82px;
+      margin-left: 197px;
     }
   
+    
     .top-title {
-      display: none;
+      width: 300px;
+      font-size: 18px;
+      margin-top: -40px;
+      margin-left: -15px;
     }
     
     
@@ -5787,7 +5849,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     .subtitle {
       font-size: 16px;
       width: 300px;
-      margin-left: 82px;
+      margin-left: 197px;
     }
   
     .time-range {
@@ -5799,7 +5861,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
   
     .time-range span {
-      font-size: 16px;
+      font-size: 12px;
       padding: 6px 10px;
      
     }
@@ -5834,18 +5896,11 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       font-size: 9px;
     }
     
-    .time-range {
-       display: none;
-    }
-    
-    .time-range span {
-      font-size: 8px;
-      padding: 5px 10px;
-    }
-    
+   
+  
     .table-container {
-      margin-left: 80px;
-      margin-top: -35px;
+      margin-left: 190px;
+      margin-top: -10px;
       max-width: 500px;
     }
     
@@ -5946,7 +6001,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     .header_title {  
       width: 100px;
       color: #161725;
-      margin-left: 100px;
+      margin-left: 30px;
       font-size: 18px;
       font-style: normal;
       font-weight: 600;
@@ -6158,7 +6213,8 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
     
     .metrics-container {  
-      overflow-x: hidden;
+    
+      
       margin-left: 120px;
       margin-top: 20px;
       padding: 30px;  
@@ -6167,11 +6223,12 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
      
     }  
     
-    .metrics-container h2 {  
+    .metrics-container h2 { 
+      margin-left: -120px; 
       margin-bottom: 20px;  
       font-weight: 500;  
       color: black;  
-      font-size: 24px;
+      font-size: 20px;
       font-family: "Circular Std Book";
     }  
     
@@ -6250,7 +6307,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     .chart-text {
       position: relative;
       margin-top:  70px;
-      margin-left: 320px;
+      margin-left: 30px;
     }
    
   
@@ -6277,7 +6334,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   
       max-width: 700px;
       margin-top: 280px;
-      margin-left: -900px;
+      margin-left: -620px;
       display: grid;
       gap: 30px;
       grid-template-columns: repeat(2, 1fr); /* 2 items per row */
@@ -6306,9 +6363,14 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       margin-left: 222px;
     }
   
+    
     .top-title {
-      display: none;
+      width: 300px;
+      font-size: 18px;
+      margin-top: -40px;
+      margin-left: -15px;
     }
+    
     
     
   
@@ -6318,9 +6380,6 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       margin-left: 222px;
     }
   
-    .time-range {
-       display: none;
-    }
   
  
   
@@ -6355,13 +6414,14 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
     
     .time-range {
-      margin: 10px 0;
+      margin-top: -50px;
+      margin-left: 200px;
       gap: 10px;
       justify-content: center;
     }
     
     .time-range span {
-      font-size: 8px;
+      font-size: 12px;
       padding: 5px 10px;
     }
     
@@ -6845,4 +6905,9 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   }
 
 
+  @media (min-width:500px){
+    .time-range-mobile{
+      display: none;
+    }
+  }
 
