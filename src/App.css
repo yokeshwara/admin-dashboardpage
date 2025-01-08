@@ -303,7 +303,7 @@ line-height: normal;
     margin-left: -1px;
     margin-top: 20px;
     padding: 20px;  
-    background-color: #F2FEFF;  
+    
     border-radius: 10px;  
    
   }  
@@ -328,8 +328,8 @@ line-height: normal;
     min-width: 100px;  
     padding: 15px;  
     border-radius: 22px;
-border: 5px solid #F2FEFF;
-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 5px solid #F2FEFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
 
   }  
@@ -409,7 +409,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   .chart-text {
     margin-top: -260px;
     font-family: "PoppinsRegular";
-    margin-left: 160px;
+    margin-left: 200px;
   }
   
   .chart-number {
@@ -675,9 +675,540 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     margin-left: 490px;
   }
 
+  @media (min-width: 200px) and (max-width: 320px) {
 
 
-  @media (min-width: 200px) and (max-width: 375px) {
+
+    .header {  
+      width: 60%;
+      margin-top: -10px;
+      display: flex;  
+      align-items: center;  
+      justify-content: space-between;  
+      padding: 20px 60px 10px 70px;  
+      border:1px solid #F6F7F7;
+      background-color: #F6F7F7;  
+      margin-left: 5px;
+      margin-right:5px;
+
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }  
+    
+    .header_logo {  
+      display: flex;  
+      align-items: center;  
+      margin-left: -60px;
+    }  
+    
+    .header_avatar {  
+      border-radius: 50%;  
+      margin-right: 10px;  
+    }  
+    
+    .header_title {  
+      width: 100px;
+      color: #161725;
+      margin-left: 30px;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }  
+
+    .icon_title{
+      /* font-size: 12px; */
+      display: none;
+    }
+
+    .icon_titles{
+      /* font-size: 12px; */
+      display: none;
+    }
+    
+    .header_actions {  
+      display: flex;  
+      align-items: center;  
+      margin-top: -15px;
+      margin-right: 20px;  
+    }  
+    
+  
+    
+    .header_icons {  
+      margin-top: 12px;
+      margin-right: -5px;
+      margin-left: 25px;
+      cursor: pointer;  
+      width: 22px;  
+      height: 22px;  
+      
+     
+    }
+    
+
+
+    .main{
+      overflow-x: hidden;
+      overflow-y: hidden;
+      width:82%;
+      border: none;
+      box-shadow: none;
+      margin-left: 25px;
+      background-color: transparent;
+    }
+  
+    .dashboard1{  
+     
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+     
+    
+    }  
+  
+    .dashboard-heading{
+     
+      color: #000;
+
+      font-size: 14px;
+      margin-left: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+
+    }
+    
+    .dashboard-title{
+      margin-left: -50px;
+      color: #161725;
+
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+
+  
+    }
+    
+    .engagement-metrics {  
+      
+      display: flex;  
+      flex-direction: row;
+      margin: 20px 0;  
+
+    }  
+    
+    .metric1 {  
+      color: #5E5C74;
+      text-align: center;  
+      margin-left: 46px;
+      font-family: "Circular Std Book";
+      font-size: 18px;
+    }  
+  
+    .metric-title1{
+         margin-top: 50px;
+         color: #5E5C74;
+      text-align: center;  
+      font-size: 18px;
+     
+      font-family: "Circular Std Book";
+    }
+    
+    
+    .metric2 {  
+      margin-left: 78px;
+      color: #5E5C74;
+      text-align: center;  
+      font-family: "Circular Std Book";
+      font-size: 18px;
+    } 
+    
+    .metric3 {  
+      color: #5E5C74;
+      text-align: center;  
+      margin-left: 90px;
+      font-family: "Circular Std Book";
+      font-size: 18px;
+    } 
+    
+    .metric-paragraph{
+      text-align: center;
+      color: #100F18;
+      margin-left: -60px;
+      font-family: "Circular Std Book";
+    }
+    
+    .percent {  
+      font-family: "Circular Std Book";
+    width: 63px;
+    height: 37px;
+    background-color: #4AA773;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #fff;
+    padding: 4px;
+    border-radius: 20px;
+    }  
+    
+    .chart-container {  
+      margin-left: -50px;
+      padding: 40px;  
+      margin-top: -40px;
+      
+    }  
+    
+    .week-data {  
+      text-align: right;  
+      margin-top: 10px;  
+    }  
+    
+    .dropdowns {  
+    
+      font-family: "Circular Std Book";
+      color: #100F18;
+      margin-right: 70px;
+      padding-left: 60px;
+      justify-content: space-around;
+      gap: 80px;
+    }  
+    
+    .dropdown {  
+      font-family: "Circular Std Book";
+      color: #100F18;
+      padding: 10px 10px;  
+      margin-bottom: -40px;
+      border: 1px solid #ddd;  
+      border-radius: 5px;  
+      font-size: 12px;  
+      cursor: pointer;  
+    }
+
+ 
+    
+    
+    .week-item1 {  
+      margin-top: -400px;
+      margin-left: -20px;
+      display: flex;  
+      align-items: center;  
+      font-size: 16px;
+    }  
+    
+    .week-item2 {  
+      width: 200px;
+      margin-top: -18px;
+      margin-left: 120px;
+      display: flex;  
+      align-items: center;  
+      font-size: 16px;
+    }  
+
+    
+    
+    .dot {  
+      width: 10px; /* Size of the dot */  
+      height: 10px; /* Size of the dot */  
+      border-radius: 50%; /* Makes it circular */  
+      margin-right: 8px; /* Space between dot and text */  
+    }  
+    
+    .blue-dot {  
+      background-color: #556AB1;; /* Blue color for "This Week" */  
+    }  
+    
+    .teal-dot {  
+      background-color: #4CC3D0; /* Teal color for "Last Week" */  
+    }
+    
+    .metrics-container {  
+      overflow-x: hidden;
+      margin-left: 20px;
+      margin-top: 20px;
+      padding: 30px;  
+      background-color: transparent;  
+      border-radius: 10px;  
+     
+    }  
+
+
+    
+    .metrics-container h2 {  
+      margin-bottom: 20px;  
+      font-weight: 500;  
+      color: black;  
+      font-size: 20px;
+      font-family: "Circular Std Book";
+    }  
+    
+    .metrics {  
+      margin-left: -10px;
+      display: flex;  
+      gap: 70px;  
+      padding-left: -20px;
+      flex-wrap: wrap;  
+      justify-content: space-between;  
+    }  
+    
+    .metric-card {  
+      flex: 1;  
+      min-width: 50px;  
+      padding: 1px;  
+      padding-left: 1px;
+      border-radius: 22px;
+      border: none;
+      background-color: transparent;
+      box-shadow: none;
+  
+  
+    }  
+    
+    .key-title{
+      margin-left: -30px;
+      color: #100F18;
+    font-family: "Circular Std";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 92.308% */
+    }
+    .metric-title {  
+      font-size: 13px;  
+      width: 200px;
+      font-family: "PoppinsRegular";
+      font-weight: 400;
+    }  
+    
+    .metric-value {  
+      font-family: "Chivo";
+    
+      font-size: 24px;  
+      font-weight: bold;  
+      margin: 10px 0;  
+    
+    }  
+    
+    .metric-change {  
+      font-size: 20px;  
+    }  
+    
+    .metric-change.green {  
+      color: green;  
+    }  
+    
+    .metric-change.red {  
+      color: red;  
+    }
+  
+    .half-doughnut-container{
+      display: flex;
+      flex-direction: row;
+      
+    }
+
+  
+    .chart-wrapper {
+      position: absolute;
+      max-width: 300px;
+      margin-left: -15px;
+      margin-top: 20px;
+      overflow-x: hidden;
+    }
+    .chart-text {
+      position: relative;
+      margin-top:  70px;
+      margin-left: -240px;
+    }
+   
+  
+    .chart-number {
+      margin-top: -20px;
+      margin-left: 55px;
+      font-size: 36px;
+    }
+  
+    .chart-percentage {
+      font-size: 14px;
+      margin-top: -40px;
+      margin-left: 55px;
+    }
+  
+    .chart-description {
+      margin-left: 60px;
+      font-size: 14px;
+    }
+
+    
+  
+    .genre-list {
+      width: 400px;
+      
+      margin-top: 280px;
+      margin-left: -150px;
+      display: grid;
+      gap: 30px;
+      grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+    }
+
+    .genre-name{
+      text-align: left;
+   
+      font-size: 18px;
+    }
+  
+    .genre-item {
+      margin: 5px 0;
+    }
+  
+    .dashboard {
+      margin-left: 0px;
+      margin-top: -60px;
+      padding: 15px;
+    }
+  
+  
+  
+    .title {
+      font-size: 18px;
+      margin-left: -4px;
+    }
+
+    .top-title {
+      width: 300px;
+      font-size: 18px;
+      margin-top: -40px;
+      margin-left: -25px;
+    }
+    
+    
+  
+    .subtitle {
+      font-size: 16px;
+      width: 300px;
+      margin-left: -4px;
+    }
+  
+
+  
+   
+  
+  
+  
+    .bottom-container{
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+  
+    .main1 {
+      width: 70%;
+      border: none; /* Example color for the border */
+      box-shadow: none;
+      background-color: transparent;
+    }
+    
+    .main2 {
+      width: 90%;
+      border: none; /* Different color for the second border */
+      box-shadow: none;
+      background-color: transparent;
+    }
+    .title {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+    
+    .subtitle {
+      font-size: 9px;
+    }
+    
+    .time-range {
+       display: none;
+    }
+    
+    .time-range-mobile{
+      margin-top: -60px;
+      margin-left: 160px; 
+    }
+ 
+    
+    .table-container {
+      margin-left: -7px;
+      margin-top: -20px;
+      max-width: 400px;
+    }
+    
+    .info-table {
+      width: 100%;
+    }
+    
+    .info-table th,
+    .info-table td {
+      background-color: transparent;
+      padding: 16px;
+      padding-left: 20px;
+      font-size: 10px;
+    }
+    
+   
+
+    .information {
+      font-size: 10px; /* Adjust font size */
+      margin-top: 20px;
+      margin-left: 20px; /* Reduce left margin */
+      padding-bottom: 1px;
+    }
+  
+    .progress {
+      font-size: 10px; /* Adjust font size */
+      margin-top: -22px;
+      margin-left: 140px; /* Reduce left margin */
+      padding-bottom: 10px;
+    }
+    
+    
+    .date1,
+    .date2 {
+      width: 200px;
+      line-height: 4;
+      font-size: 10px;
+      text-align: center;
+      margin-left: -128px;
+    }
+    
+    .date {
+      width: 200px;
+      line-height: 4;
+      font-size: 10px;
+      text-align: center;
+      margin-left: -144px;
+    }
+    
+    
+    
+    
+    
+    
+    .chart-container1,
+    .chart-container2,
+    .chart-container3 {
+      margin-left: 45px;
+      text-align: center;
+      margin-top: -30px;
+    }
+    
+    .progress-indicator1,
+    .progress-indicator2,
+    .progress-indicator3 {
+      margin-left: 120px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 321px) and (max-width: 375px) {
 
 
 
@@ -1388,7 +1919,8 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }  
     
     .chart-container {  
-      margin-left: -50px;
+      width: 100%;
+      margin-left: -60px;
       padding: 40px;  
       margin-top: -40px;
       
@@ -1967,7 +2499,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     .week-item2 {  
       width: 200px;
       margin-top: -18px;
-      margin-left: 260px;
+      margin-left: 230px;
       display: flex;  
       align-items: center;  
       font-size: 16px;
@@ -5305,7 +5837,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   
     .title {
       font-size: 18px;
-      margin-left: 82px;
+      margin-left: 135px;
     }
   
     
@@ -5321,8 +5853,8 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     .subtitle {
       font-size: 16px;
       width: 300px;
-      margin-left: 82px;
-    }
+      margin-left: 135px;
+     }
   
    
   
@@ -5359,7 +5891,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     
     .time-range {
       margin-top: -50px;
-      margin-left: 100px;
+      margin-left: 170px;
       gap: 10px;
       justify-content: center;
     }
@@ -5371,7 +5903,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
     
     .table-container {
-      margin-left: 80px;
+      margin-left: 130px;
       margin-top: -10px;
       max-width: 500px;
     }
@@ -5385,20 +5917,20 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       background-color: transparent;
       padding: 16px;
       padding-left: 20px;
-      font-size: 10px;
+      font-size: 12px;
     }
     
    
   
     .information {
-      font-size: 10px; /* Adjust font size */
+      font-size: 12px; /* Adjust font size */
       margin-top: 20px;
       margin-left: 20px; /* Reduce left margin */
       padding-bottom: 1px;
     }
   
     .progress {
-      font-size: 10px; /* Adjust font size */
+      font-size: 12px; /* Adjust font size */
       margin-top: -22px;
       margin-left: 210px; /* Reduce left margin */
       padding-bottom: 10px;
@@ -5410,14 +5942,14 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       line-height: 4;
       font-size: 10px;
       text-align: center;
-      margin-left: -170px;
+      margin-left: -177px;
     }
     
     .date {
       line-height: 4;
       font-size: 120x;
       text-align: center;
-      margin-left: -190px;
+      margin-left: -197px;
     }
     
     
@@ -6334,7 +6866,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   
       max-width: 700px;
       margin-top: 280px;
-      margin-left: -620px;
+      margin-left: -690px;
       display: grid;
       gap: 30px;
       grid-template-columns: repeat(2, 1fr); /* 2 items per row */
@@ -6440,20 +6972,20 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       background-color: transparent;
       padding: 16px;
       padding-left: 20px;
-      font-size: 10px;
+      font-size: 12px;
     }
     
    
   
     .information {
-      font-size: 10px; /* Adjust font size */
+      font-size: 12px; /* Adjust font size */
       margin-top: 20px;
       margin-left: 20px; /* Reduce left margin */
       padding-bottom: 1px;
     }
   
     .progress {
-      font-size: 10px; /* Adjust font size */
+      font-size: 12px; /* Adjust font size */
       margin-top: -22px;
       margin-left: 210px; /* Reduce left margin */
       padding-bottom: 10px;
@@ -6465,14 +6997,14 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       line-height: 4;
       font-size: 10px;
       text-align: center;
-      margin-left: -170px;
+      margin-left: -177px;
     }
     
     .date {
       line-height: 4;
-      font-size: 120x;
+      font-size: 10px;
       text-align: center;
-      margin-left: -190px;
+      margin-left: -197px;
     }
     
     
@@ -6499,11 +7031,22 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
   @media (min-width: 1100px) and (max-width: 1200px){
 
+   .chart-container{
+    margin-left: -10px;
+   }
     
+    .week-item1{
+      margin-left: 220px;
+    }
+
+
+    .week-item2{
+      margin-left: 720px;
+    }
 
     .genre-list{
      
-      margin-left: -170px;
+      margin-left: -160px;
       width: 200px;
     }
 
@@ -6512,7 +7055,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
     .main2{
-      width: 39%;
+      width: 35%;
     }
     
     
@@ -6543,7 +7086,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   .chart-text {
     margin-top: -260px;
    
-    margin-left: 150px;
+    margin-left: 120px;
   }
 
     .main2{
@@ -6551,7 +7094,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
     .table-container{
-      max-width: 600px;
+      max-width: 100px;
     }
 
     
@@ -6560,7 +7103,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       width: 120px;
       font-family: "Circular Std Book";
       margin-top: -10px; 
-      padding: 10px;  
+      padding: 20px;  
       border-bottom: 1px solid #eee;  
       padding-right: 1px;
       padding-left: 1px;
@@ -6568,6 +7111,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     
 
     .time-range {
+      width: 200px;
       margin-top: -50px;
       margin-left: 250px;
       justify-content: center;
@@ -6578,14 +7122,21 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       padding: 6px 10px;
      
     }
+    .information{
+      margin-left: 50px;
+    }
+
+    .value{
+      margin-left: 60px;
+    }
 
     .date{
       line-height: 4;
-      margin-left: -156px;
+      margin-left: -200px;
     }
     .date1, .date2{
       line-height: 4;
-      margin-left: -138px;
+      margin-left: -185px;
     }
     .progress{
       margin-left: 260px;
@@ -6603,8 +7154,19 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
 
   @media (min-width: 1201px) and (max-width: 1299px){
+ 
+    .chart-container{
+      margin-left: -20px;
+    }
 
-    
+    .week-item1{
+      margin-left: 220px;
+    }
+
+
+    .week-item2{
+      margin-left: 720px;
+    }
 
     .genre-list{
       margin-left: -170px;
@@ -6647,7 +7209,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   .chart-text {
     margin-top: -260px;
    
-    margin-left: 150px;
+    margin-left: 110px;
   }
 
     .main2{
@@ -6664,7 +7226,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       width: 120px;
       font-family: "Circular Std Book";
       margin-top: -10px; 
-      padding: 10px;  
+      padding: 20px;  
       border-bottom: 1px solid #eee;  
       padding-right: 1px;
       padding-left: 1px;
@@ -6683,13 +7245,21 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
      
     }
 
+    .information{
+      margin-left: 50px;
+    }
+
+    .value{
+      margin-left: 60px;
+    }
+
     .date{
       line-height: 4;
-      margin-left: -156px;
+      margin-left: -200px;
     }
     .date1, .date2{
       line-height: 4;
-      margin-left: -138px;
+      margin-left: -188px;
     }
     .progress{
       margin-left: 260px;
@@ -6708,7 +7278,9 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   
   @media (min-width: 1300px) and (max-width: 1510px){
 
-    
+    .chart-container{
+      margin-left: -20px;
+    }
 
     .genre-list{
       margin-left: -160px;
@@ -6767,7 +7339,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     .info-table td { 
       font-family: "Circular Std Book";
       margin-top: -10px; 
-      padding: 10px;  
+      padding: 20px;  
       border-bottom: 1px solid #eee;  
       padding-right: 30px;
       padding-left: 8px;
@@ -6785,12 +7357,13 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
       padding: 6px 10px;
      
     }
+    
 
     .date{
-      margin-left: -156px;
+      margin-left: -200px;
     }
     .date1, .date2{
-      margin-left: -138px;
+      margin-left: -185px;
     }
     .progress{
       margin-left: 360px;
@@ -6798,6 +7371,15 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
     .chart-container1,.chart-container2,.chart-container3{
       margin-left: 179px;
+      margin-bottom: -10px;
+    }
+
+    .information{
+      margin-left: 60px;
+    }
+
+    .value{
+      margin-left: 60px;
     }
     
     .progress-indicator1,.progress-indicator2,.progress-indicator3{

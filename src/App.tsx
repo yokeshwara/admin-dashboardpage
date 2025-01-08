@@ -87,7 +87,7 @@ const Dashboard = () => {
         color: '#8a8a8a',
         fontSize: 12, // Larger font size for better readability
         rotate: 0, // Rotate labels if necessary (e.g., rotate: 45 for diagonal)
-        padding: [15, 20, 150, -20], // Add padding to avoid overlap
+        padding: [15, 20, 150, 5], // Add padding to avoid overlap
       },
       axisLine: {
         lineStyle: {
@@ -95,7 +95,7 @@ const Dashboard = () => {
         },
       },
       axisTick: {
-        show: true,
+        show: true, 
       },
       boundaryGap: false,
     },
@@ -333,7 +333,7 @@ const option3 = {
       <header className="header">  
         <div className="header_logo">  
           <img   
-            src="./assets/vector.svg"   
+            src="./assets/avatar.svg"   
             alt="User Avatar"   
             className="header_avatar"   
           />  
