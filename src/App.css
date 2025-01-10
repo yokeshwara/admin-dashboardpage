@@ -209,7 +209,7 @@ line-height: normal;
   }  
   
   .chart-container {  
-    margin-left: 30px;
+    margin-left: -10px;
     padding: 20px;  
     margin-top: -30px;
   }  
@@ -227,7 +227,7 @@ line-height: normal;
   }  
   
   .dropdowns {  
-    margin-left: -20px;
+    margin-left: -50px;
     font-family: "Circular Std Book";
     color: #100F18;
    
@@ -389,13 +389,13 @@ line-height: normal;
     margin: 20px 0; /* Optional: space outside the border */
     background-color: #f9f9f9; /* Optional: background color */
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-  
-  }
+    
+  } 
 
   .bottom-container{
     display: flex;
     flex-direction: row;
-    
+    margin-bottom: -20px;
   }
   
   
@@ -527,7 +527,7 @@ line-height: normal;
     max-width: 900px;
     display: flex;
     flex-direction: column;
-  
+    padding-right: 20px;
     margin-top: 7px;  
 
     border-radius: 8px;  
@@ -869,7 +869,7 @@ line-height: normal;
     
       font-family: "Circular Std Book";
       color: #100F18;
-      margin-right: 70px;
+      margin-right: 5px;
       padding-left: 60px;
       justify-content: space-around;
       gap: 80px;
@@ -1002,36 +1002,32 @@ line-height: normal;
       color: red;  
     }
   
-    .half-doughnut-container{
-      display: flex;
-      flex-direction: row;
-      
-    }
-
+           
+  .half-doughnut-container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .chart-wrapper {
+    margin-left: -50px;
+    margin-top: 10px;
+   transform: scale(1.0);
+  }
+  .chart-text {
   
-    .chart-wrapper {
-      position: absolute;
-      max-width: 300px;
-      margin-left: -15px;
-      margin-top: 20px;
-      overflow-x: hidden;
-    }
-    .chart-text {
-      position: relative;
-      margin-top:  70px;
-      margin-left: -240px;
-    }
-   
+    margin-top:  -270px;
+    margin-left: 20px;
+  }
   
     .chart-number {
       margin-top: -20px;
       margin-left: 55px;
-      font-size: 36px;
+      font-size: 30px;
     }
   
     .chart-percentage {
       font-size: 14px;
-      margin-top: -40px;
+      margin-top: -35px;
       margin-left: 55px;
     }
   
@@ -1045,17 +1041,17 @@ line-height: normal;
     .genre-list {
       width: 400px;
       
-      margin-top: 280px;
-      margin-left: -150px;
+      margin-top: 200px;
+      margin-left: -250px;
       display: grid;
-      gap: 30px;
+      gap: 50px;
       grid-template-columns: repeat(2, 1fr); /* 2 items per row */
     }
 
     .genre-name{
       text-align: left;
    
-      font-size: 18px;
+      font-size: 14px;
     }
   
     .genre-item {
@@ -1078,7 +1074,7 @@ line-height: normal;
     .top-title {
       width: 300px;
       font-size: 18px;
-      margin-top: -40px;
+      margin-top: -10px;
       margin-left: -25px;
     }
     
@@ -1535,26 +1531,22 @@ line-height: normal;
       color: red;  
     }
   
-    .half-doughnut-container{
-      display: flex;
-      flex-direction: row;
-      
-    }
-
+           
+  .half-doughnut-container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .chart-wrapper {
+    margin-left: -35px;
+    margin-top: 40px;
+   transform: scale(1.2);
+  }
+  .chart-text {
   
-    .chart-wrapper {
-      position: absolute;
-      max-width: 300px;
-      margin-left: -15px;
-      margin-top: 20px;
-      overflow-x: hidden;
-    }
-    .chart-text {
-      position: relative;
-      margin-top:  70px;
-      margin-left: -240px;
-    }
-   
+    margin-top:  -280px;
+    margin-left: 40px;
+  }
   
     .chart-number {
       margin-top: -20px;
@@ -1579,9 +1571,9 @@ line-height: normal;
       width: 400px;
       
       margin-top: 280px;
-      margin-left: -170px;
+      margin-left: -270px;
       display: grid;
-      gap: 30px;
+      gap: 60px;
       grid-template-columns: repeat(2, 1fr); /* 2 items per row */
     }
 
@@ -1611,7 +1603,7 @@ line-height: normal;
     .top-title {
       width: 300px;
       font-size: 18px;
-      margin-top: -40px;
+      margin-top: 20px;
       margin-left: -25px;
     }
     
@@ -1708,7 +1700,7 @@ line-height: normal;
       line-height: 4;
       font-size: 10px;
       text-align: center;
-      margin-left: -140px;
+      margin-left: -127px;
     }
     
     .date {
@@ -1716,7 +1708,7 @@ line-height: normal;
       line-height: 4;
       font-size: 10px;
       text-align: center;
-      margin-left: -156px;
+      margin-left: -145px;
     }
     
     
@@ -2063,41 +2055,39 @@ line-height: normal;
     .metric-change.red {  
       color: red;  
     }
+    
+           
+  .half-doughnut-container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .chart-wrapper {
+    margin-left: 5px;
+    margin-top: 120px;
+   transform: scale(1.4);
+  }
+  .chart-text {
   
-    .half-doughnut-container{
-      display: flex;
-      flex-direction: row;
-      
-    }
-    .chart-wrapper {
-      position: absolute;
-      max-width: 300px;
-      margin-left: 25px;
-      margin-top: 20px;
-      overflow-x: hidden;
-    }
-    .chart-text {
-      position: relative;
-      margin-top:  70px;
-      margin-left: -200px;
-    }
-   
+    margin-top:  -300px;
+    margin-left: 60px;
+  }
   
     .chart-number {
       margin-top: -20px;
-      margin-left: 55px;
-      font-size: 36px;
+      margin-left: 60px;
+      font-size: 38px;
     }
   
     .chart-percentage {
       font-size: 14px;
       margin-top: -40px;
-      margin-left: 55px;
+      margin-left: 65px;
     }
   
     .chart-description {
       margin-left: 60px;
-      font-size: 14px;
+      font-size: 16px;
     }
 
     
@@ -2106,9 +2096,9 @@ line-height: normal;
       width: 400px;
       
       margin-top: 280px;
-      margin-left: -170px;
+      margin-left: -260px;
       display: grid;
-      gap: 40px;
+      gap: 60px;
       grid-template-columns: repeat(2, 1fr); /* 2 items per row */
     }
 
@@ -2599,23 +2589,22 @@ line-height: normal;
       color: red;  
     }
   
-    .half-doughnut-container{
-      display: flex;
-      flex-direction: row;
-      
-    }
-    .chart-wrapper {
-      position: absolute;
-      max-width: 300px;
-      margin-left: 25px;
-      margin-top: 20px;
-      overflow-x: hidden;
-    }
-    .chart-text {
-      position: relative;
-      margin-top:  70px;
-      margin-left: -200px;
-    }
+           
+  .half-doughnut-container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .chart-wrapper {
+    margin-left: 10px;
+    margin-top: 120px;
+   transform: scale(1.4);
+  }
+  .chart-text {
+  
+    margin-top:  -300px;
+    margin-left: 100px;
+  }
    
   
     .chart-number {
@@ -2641,7 +2630,7 @@ line-height: normal;
       width: 400px;
       
       margin-top: 280px;
-      margin-left: -170px;
+      margin-left: -270px;
       display: grid;
       gap: 40px;
       grid-template-columns: repeat(2, 1fr); /* 2 items per row */
@@ -3138,24 +3127,22 @@ line-height: normal;
     color: red;  
   }
 
+         
   .half-doughnut-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
   }
   .chart-wrapper {
-    position: absolute;
-    max-width: 300px;
-    margin-left: 25px;
-    margin-top: 20px;
-    overflow-x: hidden;
+    margin-left: -30px;
+    margin-top: 120px;
+   transform: scale(1.5);
   }
   .chart-text {
-    position: relative;
-    margin-top:  70px;
-    margin-left: -200px;
+  
+    margin-top:  -300px;
+    margin-left: 100px;
   }
- 
 
   .chart-number {
     margin-top: -20px;
@@ -3180,7 +3167,7 @@ line-height: normal;
     width: 400px;
     
     margin-top: 280px;
-    margin-left: -190px;
+    margin-left: -350px;
     display: grid;
     gap: 60px;
     grid-template-columns: repeat(2, 1fr); /* 2 items per row */
@@ -3664,22 +3651,21 @@ line-height: normal;
     color: red;  
   }
 
+         
   .half-doughnut-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
   }
   .chart-wrapper {
-    position: absolute;
-    max-width: 330px;
-    margin-left: 65px;
-    margin-top: 20px;
-    overflow-x: hidden;
+    margin-left: -20px;
+    margin-top: 120px;
+   transform: scale(1.5);
   }
   .chart-text {
-    position: relative;
-    margin-top:  70px;
-    margin-left: -160px;
+  
+    margin-top:  -300px;
+    margin-left: 130px;
   }
  
 
@@ -3706,7 +3692,7 @@ line-height: normal;
 
     
     margin-top: 280px;
-    margin-left: -230px;
+    margin-left: -320px;
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(2, 1fr); /* 2 items per row */
@@ -3754,7 +3740,7 @@ line-height: normal;
 
   .time-range {
     margin-top: -50px;
-    margin-left: 140px;
+    margin-left: 160px;
     justify-content: center;
     width: 300px;
 
@@ -4191,22 +4177,21 @@ line-height: normal;
     color: red;  
   }
 
+        
   .half-doughnut-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
   }
   .chart-wrapper {
-    position: absolute;
-    max-width: 420px;
-    margin-left: 65px;
-    margin-top: 20px;
-    overflow-x: hidden;
+    margin-left: 30px;
+    margin-top: 120px;
+   transform: scale(1.5);
   }
   .chart-text {
-    position: relative;
-    margin-top:  70px;
-    margin-left: -100px;
+  
+    margin-top:  -300px;
+    margin-left: 140px;
   }
  
 
@@ -4233,9 +4218,9 @@ line-height: normal;
 
     max-width: 700px;
     margin-top: 280px;
-    margin-left: -160px;
+    margin-left: -320px;
     display: grid;
-    gap: 40px;
+    gap: 60px;
     grid-template-columns: repeat(2, 1fr); /* 2 items per row */
   }
 
@@ -4311,7 +4296,7 @@ line-height: normal;
   
   .time-range {
     margin-top: -50px;
-    margin-left: 140px;
+    margin-left: 200px;
    
     gap: 10px;
     justify-content: center;
@@ -4715,22 +4700,21 @@ line-height: normal;
     color: red;  
   }
 
+        
   .half-doughnut-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
   }
   .chart-wrapper {
-    position: absolute;
-    max-width: 500px;
-    margin-left: 65px;
-    margin-top: 20px;
-    overflow-x: hidden;
+    margin-left: -20px;
+    margin-top: 120px;
+   transform: scale(1.5);
   }
   .chart-text {
-    position: relative;
-    margin-top:  70px;
-    margin-left: -70px;
+  
+    margin-top:  -300px;
+    margin-left: 150px;
   }
  
 
@@ -4757,9 +4741,9 @@ line-height: normal;
 
     max-width: 700px;
     margin-top: 280px;
-    margin-left: -160px;
+    margin-left: -350px;
     display: grid;
-    gap: 30px;
+    gap: 60px;
     grid-template-columns: repeat(2, 1fr); /* 2 items per row */
   }
 
@@ -4804,7 +4788,7 @@ line-height: normal;
 
   .time-range {
     margin-top: -50px;
-    margin-left: 200px;
+    margin-left: 220px;
     justify-content: center;
     width: 300px;
 
@@ -5243,24 +5227,22 @@ line-height: normal;
     color: red;  
   }
 
+      
   .half-doughnut-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
   }
   .chart-wrapper {
-    position: absolute;
-    max-width: 580px;
-    margin-left: 65px;
-    margin-top: 20px;
-    overflow-x: hidden;
+    margin-left: 70px;
+    margin-top: 120px;
+   transform: scale(1.5);
   }
   .chart-text {
-    position: relative;
-    margin-top:  70px;
-    margin-left: -20px;
+  
+    margin-top:  -300px;
+    margin-left: 200px;
   }
- 
 
   .chart-number {
     margin-top: -20px;
@@ -5285,9 +5267,9 @@ line-height: normal;
 
     max-width: 700px;
     margin-top: 280px;
-    margin-left: -160px;
+    margin-left: -340px;
     display: grid;
-    gap: 30px;
+    gap: 50px;
     grid-template-columns: repeat(2, 1fr); /* 2 items per row */
   }
 
@@ -5769,23 +5751,23 @@ line-height: normal;
       color: red;  
     }
   
+      
     .half-doughnut-container{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       
     }
     .chart-wrapper {
-      position: absolute;
-      max-width: 500px;
-      margin-left: 65px;
-      margin-top: 20px;
-      overflow-x: hidden;
+      margin-left: -50px;
+      margin-top: 120px;
+     transform: scale(1.6);
     }
     .chart-text {
-      position: relative;
-      margin-top:  70px;
-      margin-left: -70px;
+    
+      margin-top:  -300px;
+      margin-left: 200px;
     }
+   
    
   
     .chart-number {
@@ -6049,7 +6031,7 @@ line-height: normal;
     .main{
       overflow-x: hidden;
       overflow-y: hidden;
-      width:85%;
+      width:90%;
       border: none;
       box-shadow: none;
       margin-left: 25px;
@@ -6299,21 +6281,20 @@ line-height: normal;
   
     .half-doughnut-container{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       
     }
     .chart-wrapper {
-      position: absolute;
-      max-width: 620px;
-      margin-left: 65px;
-      margin-top: 20px;
-      overflow-x: hidden;
+      margin-left: 40px;
+      margin-top: 120px;
+     transform: scale(1.6);
     }
     .chart-text {
-      position: relative;
-      margin-top:  70px;
-      margin-left: -20px;
+    
+      margin-top:  -300px;
+      margin-left: 300px;
     }
+   
    
   
     .chart-number {
@@ -6339,7 +6320,7 @@ line-height: normal;
   
       max-width: 700px;
       margin-top: 280px;
-      margin-left: -550px;
+      margin-left: -480px;
       display: grid;
       gap: 30px;
       grid-template-columns: repeat(2, 1fr); /* 2 items per row */
@@ -6503,10 +6484,10 @@ line-height: normal;
   }
 
 
-  @media (min-width: 890px) and (max-width: 1099px){
+  @media (min-width: 890px) and (max-width: 1110px){
     .header {  
       width: 88%;
-      margin-top: -10px;
+      margin-top: 10px;
       display: flex;  
       align-items: center;  
       justify-content: space-between;  
@@ -6516,7 +6497,7 @@ line-height: normal;
       margin-left: 5px;
       margin-right:5px;
   
-      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }  
     
     .header_logo {  
@@ -6575,7 +6556,7 @@ line-height: normal;
     .main{
       overflow-x: hidden;
       overflow-y: hidden;
-      width:90%;
+      width:95%;
       border: none;
       box-shadow: none;
       margin-left: 25px;
@@ -6721,7 +6702,7 @@ line-height: normal;
     .week-item2 {  
       width: 200px;
       margin-top: -18px;
-      margin-left: 690px;
+      margin-left: 620px;
       display: flex;  
       align-items: center;  
       font-size: 16px;
@@ -6826,20 +6807,18 @@ line-height: normal;
   
     .half-doughnut-container{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       
     }
     .chart-wrapper {
-      position: absolute;
-      max-width: 700px;
-      margin-left: 65px;
-      margin-top: 20px;
-      overflow-x: hidden;
+      margin-left: 80px;
+      margin-top: 120px;
+     transform: scale(1.8);
     }
     .chart-text {
-      position: relative;
-      margin-top:  70px;
-      margin-left: 30px;
+    
+      margin-top:  -300px;
+      margin-left: 330px;
     }
    
   
@@ -6866,9 +6845,9 @@ line-height: normal;
   
       max-width: 700px;
       margin-top: 280px;
-      margin-left: -690px;
+      margin-left: -680px;
       display: grid;
-      gap: 30px;
+      gap: 50px;
       grid-template-columns: repeat(2, 1fr); /* 2 items per row */
     }
   
@@ -6947,7 +6926,7 @@ line-height: normal;
     
     .time-range {
       margin-top: -50px;
-      margin-left: 200px;
+      margin-left: 100px;
       gap: 10px;
       justify-content: center;
     }
@@ -7029,7 +7008,141 @@ line-height: normal;
     }
   }
 
-  @media (min-width: 1100px) and (max-width: 1200px){
+  @media (min-width: 1111px) and (max-width: 1179px){
+
+
+    .bottom-container{
+      overflow-y: hidden;
+
+    }
+
+    .chart-container{
+     margin-left: -10px;
+    }
+     
+     .week-item1{
+       margin-left: 220px;
+     }
+ 
+ 
+     .week-item2{
+       margin-left: 720px;
+     }
+ 
+     .genre-list{
+      
+       margin-left: -190px;
+       width: 200px;
+     }
+ 
+     .main1{
+       width: 52%;
+     }
+ 
+     .main2{
+       width: 35%;
+     }
+     
+     
+     .metric-title1{
+       margin-left: -20px;
+     }
+ 
+     .metric1{
+       margin-left: -200px;
+     }
+ 
+     .metric3{
+       margin-right: -190px;
+     }
+ 
+     .metric-paragraph{
+       margin-left: 20px;
+     }
+     
+ 
+      
+   .chart-wrapper{
+     margin-left: -160px;
+     margin-top: 120px;
+    transform: scale(1.6);
+   }
+   
+   .chart-text {
+     margin-top: -330px;
+    
+     margin-left: 90px;
+   }
+ 
+     .main2{
+       width: 39%;
+     }
+ 
+     .table-container{
+       max-width: 100px;
+     }
+ 
+     
+     
+     .info-table td { 
+       width: 120px;
+       font-family: "Circular Std Book";
+       margin-top: -10px; 
+       padding: 15px;  
+       border-bottom: 1px solid #eee;  
+       padding-right: 1px;
+       padding-left: 1px;
+     }  
+     
+ 
+     .time-range {
+       width: 200px;
+       margin-top: -50px;
+       margin-left: 250px;
+       justify-content: center;
+     }
+   
+     .time-range span {
+       font-size: 9px;
+       padding: 6px 10px;
+      
+     }
+     .information{
+       margin-left: 50px;
+     }
+ 
+     .value{
+       margin-left: 60px;
+     }
+ 
+     .date{
+       line-height: 4;
+       margin-left: -200px;
+     }
+     .date1, .date2{
+       line-height: 4;
+       margin-left: -185px;
+     }
+     .progress{
+       margin-left: 260px;
+     }
+ 
+     .chart-container1,.chart-container2,.chart-container3{
+       margin-left: 120px;
+     }
+     
+     .progress-indicator1,.progress-indicator2,.progress-indicator3{
+       margin-left: 260px;
+     }
+ 
+   }
+
+  @media (min-width: 1180px) and (max-width: 1239px){
+
+
+    .bottom-container{
+      overflow-y: hidden;
+    }
 
    .chart-container{
     margin-left: -10px;
@@ -7078,19 +7191,19 @@ line-height: normal;
 
      
   .chart-wrapper{
-    max-width: 500px;
- 
-    margin-bottom: -20px;
+    margin-left: -120px;
+    margin-top: 120px;
+   transform: scale(1.8);
   }
   
   .chart-text {
-    margin-top: -260px;
+    margin-top: -330px;
    
-    margin-left: 120px;
+    margin-left: 90px;
   }
 
     .main2{
-      width: 42%;
+      width: 38%;
     }
 
     .table-container{
@@ -7103,7 +7216,7 @@ line-height: normal;
       width: 120px;
       font-family: "Circular Std Book";
       margin-top: -10px; 
-      padding: 20px;  
+      padding: 15px;  
       border-bottom: 1px solid #eee;  
       padding-right: 1px;
       padding-left: 1px;
@@ -7153,7 +7266,56 @@ line-height: normal;
   }
 
 
-  @media (min-width: 1201px) and (max-width: 1299px){
+  @media (min-width: 1240px) and (max-width: 1299px){
+  
+  .bottom-container{
+    overflow-y: hidden;
+  }
+     
+  .chart-wrapper{
+      
+    margin-left: -110px;
+    margin-top: -40px;
+    height: 1px;
+    transform: scale(2.0); 
+  
+   }
+   
+   .chart-text {
+     
+     margin-top: 140px;
+     font-family: "PoppinsRegular";
+     margin-left: 100px;
+   }
+   
+   .chart-number {
+    margin-top: -25px;
+     margin-left: 96px;
+     color: #231F20;
+ 
+     font-family: "PoppinsRegular";;
+     font-size: 58px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+   }
+   
+   .chart-percentage {
+     font-size: 20px;
+     color: #00b050;
+     margin-top: -68px;
+     font-family: "PoppinsRegular";
+     margin-left: 96px;
+   }
+   
+   .chart-description {
+     margin-top: 50px;
+     margin-left: 100px;
+     font-family: "PoppinsRegular";
+     font-size: 16px;
+     color: #666;
+   }
+   
  
     .chart-container{
       margin-left: -20px;
@@ -7169,7 +7331,7 @@ line-height: normal;
     }
 
     .genre-list{
-      margin-left: -170px;
+      margin-left: -140px;
       width: 200px;
     }
 
@@ -7199,21 +7361,9 @@ line-height: normal;
     }
     
 
-     
-  .chart-wrapper{
-    max-width: 500px;
- 
-    margin-bottom: -20px;
-  }
-  
-  .chart-text {
-    margin-top: -260px;
-   
-    margin-left: 110px;
-  }
 
     .main2{
-      width: 42%;
+      width: 38%;
     }
 
     .table-container{
@@ -7226,7 +7376,7 @@ line-height: normal;
       width: 120px;
       font-family: "Circular Std Book";
       margin-top: -10px; 
-      padding: 20px;  
+      padding: 15px;  
       border-bottom: 1px solid #eee;  
       padding-right: 1px;
       padding-left: 1px;
@@ -7274,16 +7424,20 @@ line-height: normal;
     }
 
   }
+  @media (min-width: 1300px) and (max-width: 1406px){
 
-  
-  @media (min-width: 1300px) and (max-width: 1510px){
+    
+    .bottom-container{
+      overflow-y: hidden;
+    }
+
 
     .chart-container{
       margin-left: -20px;
     }
 
     .genre-list{
-      margin-left: -160px;
+      margin-left: -150px;
       width: 200px;
     }
 
@@ -7315,19 +7469,55 @@ line-height: normal;
   }
      
   .chart-wrapper{
-    max-width: 700px;
- 
-    margin-bottom: -20px;
-  }
+      
+    margin-left: -110px;
+    margin-top: -40px;
+    height: 1px;
+    transform: scale(2.0); 
   
-  .chart-text {
-    margin-top: -260px;
+   }
    
-    margin-left: 200px;
-  }
+   .chart-text {
+     
+     margin-top: 160px;
+     font-family: "PoppinsRegular";
+     margin-left: 100px;
+   }
+   
+   .chart-number {
+    margin-top: -25px;
+     margin-left: 96px;
+     color: #231F20;
+ 
+     font-family: "PoppinsRegular";;
+     font-size: 58px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+   }
+   
+   .chart-percentage {
+     font-size: 20px;
+     color: #00b050;
+     margin-top: -68px;
+     font-family: "PoppinsRegular";
+     margin-left: 96px;
+   }
+   
+   .chart-description {
+     margin-top: 50px;
+     margin-left: 100px;
+     font-family: "PoppinsRegular";
+     font-size: 16px;
+     color: #666;
+   }
+   
+   
+
+  
 
     .main2{
-      width: 42%;
+      width: 41%;
     }
     
 
@@ -7339,7 +7529,167 @@ line-height: normal;
     .info-table td { 
       font-family: "Circular Std Book";
       margin-top: -10px; 
-      padding: 20px;  
+      padding: 15px;  
+      border-bottom: 1px solid #eee;  
+      padding-right: 30px;
+      padding-left: 8px;
+    }  
+    
+
+    .time-range {
+      margin-top: -50px;
+      margin-left: 250px;
+      justify-content: center;
+    }
+  
+    .time-range span {
+      font-size: 9px;
+      padding: 6px 10px;
+     
+    }
+    
+
+    .date{
+      margin-left: -200px;
+    }
+    .date1, .date2{
+      margin-left: -185px;
+    }
+    .progress{
+      margin-left: 360px;
+    }
+
+    .chart-container1,.chart-container2,.chart-container3{
+      margin-left: 179px;
+      margin-bottom: -10px;
+    }
+
+    .information{
+      margin-left: 60px;
+    }
+
+    .value{
+      margin-left: 60px;
+    }
+    
+    .progress-indicator1,.progress-indicator2,.progress-indicator3{
+      margin-left: 350px;
+    }
+
+  }
+  
+  @media (min-width: 1407px) and (max-width: 1511px){
+
+
+    .bottom-container{
+      overflow-y: hidden;
+    }
+
+    .chart-container{
+      margin-left: -20px;
+    }
+
+    .genre-list{
+      margin-left: -190px;
+      width: 200px;
+    }
+
+    .main2{
+      width: 30%;
+    }
+
+    
+    
+
+    .metric-title1{
+      margin-left: -20px;
+    }
+
+    .metric1{
+      margin-left: -250px;
+    }
+
+    .metric3{
+      margin-right: -230px;
+    }
+
+    .metric-paragraph{
+      margin-left: 40px;
+    }
+    
+  .top-title{
+     margin-left: 5px;
+  }
+     
+  .chart-wrapper{
+      
+    margin-left: -70px;
+    margin-top: -40px;
+    height: 1px;
+    transform: scale(2.0); 
+  
+   }
+   
+   .chart-text {
+     
+     margin-top: 160px;
+     font-family: "PoppinsRegular";
+     margin-left: 140px;
+   }
+   
+   .chart-number {
+    margin-top: -25px;
+     margin-left: 96px;
+     color: #231F20;
+ 
+     font-family: "PoppinsRegular";;
+     font-size: 58px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+   }
+   
+   .chart-percentage {
+     font-size: 20px;
+     color: #00b050;
+     margin-top: -68px;
+     font-family: "PoppinsRegular";
+     margin-left: 96px;
+   }
+   
+   .chart-description {
+     margin-top: 50px;
+     margin-left: 100px;
+     font-family: "PoppinsRegular";
+     font-size: 16px;
+     color: #666;
+   }
+   
+   
+   
+   .genre-list {  
+     max-width: 400px;
+     width: 70%;
+     margin-top: 30px;
+     margin-left: -80px;
+     font-family: "PoppinsRegular";  
+   }  
+  
+
+    .main2{
+      width: 41%;
+    }
+    
+
+    .table-container{
+      max-width: 500px;
+    }
+    
+    
+    .info-table td { 
+      font-family: "Circular Std Book";
+      margin-top: -10px; 
+      padding: 15px;  
       border-bottom: 1px solid #eee;  
       padding-right: 30px;
       padding-left: 8px;
@@ -7388,17 +7738,221 @@ line-height: normal;
 
   }
 
-  @media (min-width: 1511px) and (max-width: 1919px){
+  @media (min-width: 1512px) and (max-width: 1710px){
 
+    .bottom-container{
+      overflow-y: hidden;
+    }
+     
+     .chart-wrapper{
+          
+         
+          margin-top: 10px;
+          height: 100px;
+          transform: scale(2.0); 
+          margin-left: -40px;
+         }
+         
+         .chart-text {
+           
+           margin-top: -70px;
+           font-family: "PoppinsRegular";
+           margin-left: 170px;
+         }
+         
+         .chart-number {
+          margin-top: -25px;
+           margin-left: 96px;
+           color: #231F20;
+       
+           font-family: "PoppinsRegular";;
+           font-size: 58px;
+           font-style: normal;
+           font-weight: 700;
+           line-height: normal;
+         }
+         
+         .chart-percentage {
+           font-size: 20px;
+           color: #00b050;
+           margin-top: -68px;
+           font-family: "PoppinsRegular";
+           margin-left: 96px;
+         }
+         
+         .chart-description {
+           margin-top: 50px;
+           margin-left: 100px;
+           font-family: "PoppinsRegular";
+           font-size: 16px;
+           color: #666;
+         }
+         
+         
+         
+         .genre-list {  
+           max-width: 400px;
+           width: 70%;
+           margin-top: 30px;
+           margin-left: -50px;
+           font-family: "PoppinsRegular";  
+         }  
+        
+    
+        .main1{
+          width: 50%;
+        }
+    
+        
+        
+    
+        .metric-title1{
+          margin-left: -20px;
+        }
+    
+        .metric1{
+          margin-left: -250px;
+        }
+    
+        .metric3{
+          margin-right: -230px;
+        }
+    
+        .metric-paragraph{
+          margin-left: 40px;
+        }
+        
+      .top-title{
+         margin-left: 5px;
+      }
+         
+    
+    
+        .main2{
+          width: 41%;
+        }
+        
+    
+        .table-container{
+          max-width: 600px;
+        }
+        
+        
+        .info-table td { 
+          font-family: "Circular Std Book";
+          margin-top: -10px; 
+          padding: 10px;  
+          border-bottom: 1px solid #eee;  
+          padding-right: 160px;
+          padding-left: 8px;
+        }  
+        
+    
+        .time-range {
+          margin-top: -50px;
+          margin-left: 250px;
+          justify-content: center;
+        }
+      
+        .time-range span {
+          font-size: 9px;
+          padding: 6px 10px;
+         
+        }
+        
+    
+        .date{
+          margin-left: -286px;
+          line-height: 4;
+        }
+        .date1, .date2{
+          margin-left: -268px;
+          line-height: 4;
+        }
+        .progress{
+          margin-left: 300px;
+        }
+    
+        .information{
+          margin-left: 10px;
+        }
+        
+        .chart-container1,.chart-container2,.chart-container3{
+          margin-left: 150px;
+        }
+        .progress-indicator1,.progress-indicator2,.progress-indicator3{
+          margin-left: 300px;
+        }
+    
+      }
     
 
-    .genre-list{
-      margin-left: -160px;
-      width: 200px;
-    }
+  @media (min-width: 1711px) and (max-width: 2560px){
 
-    .main2{
-      width: 30%;
+.bottom-container{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+ 
+ .chart-wrapper{
+      
+     
+      margin-top: 10px;
+      width: 400px;
+      height: 90px;
+      transform: scale(2.8); 
+      margin-left: 150px;
+     }
+     
+     .chart-text {
+       
+       margin-top: -70px;
+       font-family: "PoppinsRegular";
+       margin-left: 200px;
+     }
+     
+     .chart-number {
+      margin-top: -25px;
+       margin-left: 96px;
+       color: #231F20;
+   
+       font-family: "PoppinsRegular";;
+       font-size: 58px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: normal;
+     }
+     
+     .chart-percentage {
+       font-size: 20px;
+       color: #00b050;
+       margin-top: -68px;
+       font-family: "PoppinsRegular";
+       margin-left: 96px;
+     }
+     
+     .chart-description {
+       margin-top: 50px;
+       margin-left: 100px;
+       font-family: "PoppinsRegular";
+       font-size: 16px;
+       color: #666;
+     }
+     
+     
+     
+     .genre-list {  
+       max-width: 400px;
+       width: 70%;
+       margin-top: 30px;
+       margin-left: 180px;
+       font-family: "PoppinsRegular";  
+     }  
+
+   
+
+    .main1{
+      width: 50%;
     }
 
     
@@ -7424,20 +7978,10 @@ line-height: normal;
      margin-left: 5px;
   }
      
-  .chart-wrapper{
-    max-width: 700px;
- 
-    margin-bottom: -20px;
-  }
-  
-  .chart-text {
-    margin-top: -260px;
-   
-    margin-left: 200px;
-  }
+
 
     .main2{
-      width: 42%;
+      width: 43%;
     }
     
 
@@ -7451,7 +7995,7 @@ line-height: normal;
       margin-top: -10px; 
       padding: 10px;  
       border-bottom: 1px solid #eee;  
-      padding-right: 30px;
+      padding-right: 160px;
       padding-left: 8px;
     }  
     
@@ -7467,19 +8011,27 @@ line-height: normal;
       padding: 6px 10px;
      
     }
+    
 
     .date{
-      margin-left: -156px;
+      margin-left: -286px;
       line-height: 4;
     }
     .date1, .date2{
-      margin-left: -138px;
+      margin-left: -268px;
       line-height: 4;
     }
     .progress{
-      margin-left: 410px;
+      margin-left: 400px;
+    }
+
+    .information{
+      margin-left: 10px;
     }
     
+    .chart-container1,.chart-container2,.chart-container3{
+      margin-left: 220px;
+    }
     .progress-indicator1,.progress-indicator2,.progress-indicator3{
       margin-left: 400px;
     }
@@ -7492,4 +8044,5 @@ line-height: normal;
       display: none;
     }
   }
+
 

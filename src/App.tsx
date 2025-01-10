@@ -163,7 +163,7 @@ const Dashboard = () => {
         type: "pie",
         radius: ["72%", "97%"], // Slightly larger radius for the white outline
         startAngle: 209,
-        endAngle: 330,
+        endAngle: 120,
         data: [
           { value: 1, name: "", itemStyle: { color: "transparent",  borderRadius: "50%", borderWidth: 15} }, // White background
         ],
@@ -178,9 +178,9 @@ const Dashboard = () => {
       // Actual chart layer
       {
         type: "pie",
-        radius: ["77%", "92%"], // Doughnut thickness
-        startAngle: 209, // Start from left (180 degrees)
-        endAngle: 330, // End at right (360 degrees)
+        radius: ["77%", "85%"], // Doughnut thickness
+        startAngle: 170, // Start from left (180 degrees)
+        endAngle: 370, // End at right (360 degrees)
         data: [
           { value: 390, name: "Science Fiction", itemStyle: { color: "#99db74", borderRadius: "50%" } },
           { value: 10, name: "", itemStyle: { color: "transparent" } }, // Empty space
@@ -435,7 +435,7 @@ const option3 = {
       
      <div className="half-doughnut-container">
           <h3 className="top-title">Top Genres</h3>
-          <div className="chart-wrapper" style={{ width: "100%", height: "300px" }}>
+          <div className="chart-wrapper" >
             <ReactECharts option={options} />
           </div>
           <div className="chart-text">
