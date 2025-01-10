@@ -5503,7 +5503,7 @@ line-height: normal;
     .main{
       overflow-x: hidden;
       overflow-y: hidden;
-      width:85%;
+      width:90%;
       border: none;
       box-shadow: none;
       margin-left: 25px;
@@ -7590,7 +7590,7 @@ line-height: normal;
     }
 
     .genre-list{
-      margin-left: -190px;
+      margin-left: 170px;
       width: 200px;
     }
 
@@ -7624,17 +7624,17 @@ line-height: normal;
   .chart-wrapper{
       
     margin-left: -70px;
-    margin-top: -40px;
+    margin-top: -20px;
     height: 1px;
-    transform: scale(2.0); 
+    transform: scale(1.8); 
   
    }
    
    .chart-text {
      
-     margin-top: 160px;
+     margin-top: 140px;
      font-family: "PoppinsRegular";
-     margin-left: 140px;
+     margin-left: 80px;
    }
    
    .chart-number {
@@ -7643,16 +7643,16 @@ line-height: normal;
      color: #231F20;
  
      font-family: "PoppinsRegular";;
-     font-size: 58px;
+     font-size: 48px;
      font-style: normal;
      font-weight: 700;
      line-height: normal;
    }
    
    .chart-percentage {
-     font-size: 20px;
+     font-size: 19px;
      color: #00b050;
-     margin-top: -68px;
+     margin-top: -58px;
      font-family: "PoppinsRegular";
      margin-left: 96px;
    }
@@ -7671,7 +7671,7 @@ line-height: normal;
      max-width: 400px;
      width: 70%;
      margin-top: 30px;
-     margin-left: -80px;
+     margin-left: -20px;
      font-family: "PoppinsRegular";  
    }  
   
@@ -7900,13 +7900,13 @@ line-height: normal;
       margin-top: 10px;
       width: 400px;
       height: 90px;
-      transform: scale(2.8); 
+      transform: scale(2.3); 
       margin-left: 150px;
      }
      
      .chart-text {
        
-       margin-top: -70px;
+       margin-top: -50px;
        font-family: "PoppinsRegular";
        margin-left: 200px;
      }
